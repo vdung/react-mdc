@@ -12,7 +12,8 @@
     "prebuild": "rimraf dist",
     "build": "npm run build:types && npm run build:js",
     "build:types": "tsc --emitDeclarationOnly",
-    "build:js": "babel src --out-dir dist --extensions \".ts,.tsx\" --source-maps inline"
+    "build:js": "babel src --out-dir dist --extensions \".ts,.tsx\" --source-maps inline",
+    "prepare": "npm run build"
   },
   "author": "Cao Viet Dung",
   "license": "MIT",
