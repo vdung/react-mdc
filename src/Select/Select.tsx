@@ -23,7 +23,7 @@ export interface SelectProps {
   selectedIndex?: number
   valid?: boolean
   required?: boolean
-  label?: string | React.ComponentType
+  label?: string | React.ReactElement<any>
   children?: React.ReactNode
 }
 
@@ -34,15 +34,13 @@ class Select extends withControl<SelectProps>(MDCSelect, {
   controlProps: ['disabled', 'selectedIndex', 'value', 'valid', 'required'],
 }) {
   renderLabel() {
-    const LabelComponent = this.props.label
+    const { label } = this.props
 
-    if (typeof LabelComponent === 'string') {
-      return <FloatingLabel>{LabelComponent}</FloatingLabel>
-    } else if (LabelComponent) {
-      return <LabelComponent />
+    if (typeof label === 'string') {
+      return <FloatingLabel>{label}</FloatingLabel>
     }
 
-    return null
+    return label
   }
 
   renderFooter() {
