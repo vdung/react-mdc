@@ -12,7 +12,8 @@ export interface TabProps extends React.HTMLProps<HTMLButtonElement> {
   focusOnActivate?: boolean
   stacked?: boolean
   minWidth?: boolean
-  indicator?: React.ComponentType<IndicatorProps>
+  indicator?: React.ReactElement<IndicatorProps>
+  indicatorMinWidth?: boolean
 }
 
 const cssProps: CssProps<TabProps> = {
@@ -24,17 +25,35 @@ const cssProps: CssProps<TabProps> = {
 class Tab extends withControl<TabProps>(MDCTab, {
   controlProps: ['focusOnActivate'],
 }) {
+  renderIndicator(
+    indicator: React.ReactElement<IndicatorProps> | undefined,
+    active: boolean | undefined
+  ) {
+    if (indicator) {
+      return React.cloneElement(indicator, {
+        active,
+      })
+    }
+
+    return <Indicator active={active} />
+  }
+
   render() {
-    const { active, children, indicator, ...props } = this.props
-    const IndicatorComponent = indicator
+    const {
+      active,
+      children,
+      indicator,
+      indicatorMinWidth,
+      ...props
+    } = this.props
 
     return (
       <button {...props} ref={this.control}>
         <Content>
           {children}
-          {IndicatorComponent ? null : <Indicator active={active} />}
+          {indicatorMinWidth ? this.renderIndicator(indicator, active) : null}
         </Content>
-        {IndicatorComponent ? <IndicatorComponent active={active} /> : null}
+        {indicatorMinWidth ? null : this.renderIndicator(indicator, active)}
         <Ripple />
       </button>
     )
