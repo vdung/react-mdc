@@ -1,0 +1,12 @@
+.drawer__layout {
+  display: flex;
+  flex-direction: row;
+  width: 100vh;
+  height: 100vh;
+}
+
+.drawer__content {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 auto;
+}

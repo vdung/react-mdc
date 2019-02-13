@@ -1,0 +1,23 @@
+.tab-bar__custom-color .mdc-tab,
+.tab-bar__custom-color .mdc-tab .mdc-tab__icon {
+  color: var(--mdc-theme-secondary, green);
+}
+
+.tab-bar__custom-color .mdc-tab.mdc-tab--active,
+.tab-bar__custom-color .mdc-tab.mdc-tab:hover,
+.tab-bar__custom-color .mdc-tab.mdc-tab--active .mdc-tab__icon,
+.tab-bar__custom-color .mdc-tab.mdc-tab:hover .mdc-tab__icon {
+  color: var(--mdc-theme-primary, blue);
+}
+
+.tab-bar__custom-indicator .mdc-tab-bar__indicator {
+  background-color: var(--mdc-theme-primary, blue);
+}
+
+.tab-bar__within-toolbar .mdc-tab {
+  color: var(--mdc-theme-text-primary-on-primary, white);
+}
+
+.tab-bar__within-toolbar .mdc-tab-bar__indicator {
+  background-color: var(--mdc-theme-text-primary-on-primary, white);
+}

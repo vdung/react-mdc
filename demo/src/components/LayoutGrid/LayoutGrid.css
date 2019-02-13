@@ -1,0 +1,22 @@
+.layout-grid-demo.mdc-layout-grid {
+  background: #dddddd;
+}
+
+.layout-grid-demo .mdc-layout-grid__cell {
+  background: #666666;
+  color: white;
+  font-size: 1.5em;
+}
+
+.layout-grid-demo .mdc-layout-grid__cell.layout-grid-demo__parent {
+  background: #aaaaaa;
+}
+
+.layout-grid-demo__parent .mdc-layout-grid__cell {
+  font-size: 1em;
+}
+
+.layout-grid-demo .mdc-layout-grid__cell:not(.layout-grid-demo__parent) {
+  padding: 8px;
+  height: 200px;
+}

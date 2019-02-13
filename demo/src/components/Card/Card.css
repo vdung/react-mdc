@@ -1,0 +1,29 @@
+.music-card__content {
+  display: flex;
+}
+
+.music-card__media {
+  width: 110px;
+}
+
+.music-card__info {
+  display: flex;
+  flex-direction: column;
+  padding: 8px 16px;
+}
+
+.photo-card__media-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.photo-card__media-title {
+  padding: 8px 16px;
+  color: white;
+  background-image: linear-gradient(
+    to bottom,
+    transparent 0%,
+    rgba(0, 0, 0, 0.5) 100%
+  );
+}

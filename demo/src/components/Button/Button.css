@@ -1,0 +1,7 @@
+.btn-container > * {
+  margin: 12px;
+}
+
+.mdc-button.secondary-btn {
+  color: #ff87b0;
+}

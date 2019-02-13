@@ -1,0 +1,7 @@
+.list-item__demo-graphic {
+  color: white;
+  background-color: var(
+    --mdc-theme-text-icon-on-background,
+    rgba(0, 0, 0, 0.38)
+  );
+}

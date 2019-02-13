@@ -1,0 +1,10 @@
+.toolbar__menu {
+  margin-top: 8px;
+  margin-right: 8px;
+}
+
+.toolbar__flexible .mdc-toolbar__row:first-child::after {
+  background-size: cover;
+  background-position: center;
+  background-image: url('../../assets/4-3.jpg');
+}
