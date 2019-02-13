@@ -32,6 +32,7 @@ class TopAppBar extends withControl<TopAppBarProps>(MDCTopAppBar) {
   }
 }
 
-export default materialize<TopAppBarProps>('mdc-top-app-bar', { cssProps })(
-  TopAppBar
-)
+export default materialize<TopAppBarProps>('mdc-top-app-bar', {
+  cssProps,
+  displayName: 'TopAppBar',
+})(TopAppBar)
