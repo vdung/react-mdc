@@ -35,9 +35,12 @@ export const Default = () => (
       <div>
         {Array.from({ length: 2 }, (_, i) => (
           <FormField key={i}>
-            <Radio checked={selected == i}>
-              <input id={`radio-${i + 1}`} onChange={() => onToggle(i)} />
-            </Radio>
+            <Radio
+              checked={selected == i}
+              input={
+                <input id={`radio-${i + 1}`} onChange={() => onToggle(i)} />
+              }
+            />
             <label htmlFor={`radio-${i + 1}`}>{`Default Radio ${i + 1}`}</label>
           </FormField>
         ))}
@@ -52,9 +55,11 @@ export const Disabled = () => (
       <div>
         {Array.from({ length: 2 }, (_, i) => (
           <FormField key={i}>
-            <Radio disabled checked={selected == i}>
-              <input id={`radio-${i + 1}`} />
-            </Radio>
+            <Radio
+              disabled
+              checked={selected == i}
+              input={<input id={`radio-${i + 1}`} />}
+            />
             <label htmlFor={`radio-${i + 1}`}>{`Disabled Radio ${i +
               1}`}</label>
           </FormField>

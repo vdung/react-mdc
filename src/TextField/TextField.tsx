@@ -13,12 +13,8 @@ import {
 
 const FloatingLabel = materialize('mdc-floating-label')('label')
 
-type TextFieldInputComponent =
-  | React.ReactHTMLElement<HTMLInputElement>
-  | React.ReactHTMLElement<HTMLTextAreaElement>
-
 export interface TextFieldProps extends React.HTMLAttributes<HTMLDivElement> {
-  textarea?: boolean
+  textarea?: boolean | React.ReactHTMLElement<HTMLTextAreaElement>
   fullwidth?: boolean
   outlined?: boolean
   disabled?: boolean
@@ -27,7 +23,7 @@ export interface TextFieldProps extends React.HTMLAttributes<HTMLDivElement> {
   leadingIcon?: React.ReactNode
   trailingIcon?: React.ReactNode
   helperText?: React.ReactNode
-  children: TextFieldInputComponent
+  input?: React.ReactHTMLElement<HTMLInputElement>
 }
 
 const cssProps: CssProps<TextFieldProps> = {
@@ -35,8 +31,11 @@ const cssProps: CssProps<TextFieldProps> = {
   disabled: 'disabled',
   dense: 'dense',
   outlined: 'outlined',
-  textarea({ children, textarea }) {
-    return textarea || children.type === 'textarea'
+  textarea({ textarea }) {
+    if (typeof textarea === 'boolean') {
+      return textarea
+    }
+    return typeof textarea !== 'undefined'
   },
   leadingIcon({ leadingIcon }) {
     if (leadingIcon) {
@@ -61,8 +60,29 @@ class TextField extends withControl<TextFieldProps>(MDCTextField) {
     )
   }
 
-  renderInput(children: TextFieldInputComponent) {
-    return <Input>{children}</Input>
+  renderInput() {
+    const { input, textarea } = this.props
+    if (typeof textarea === 'boolean') {
+      return (
+        <Input>
+          <textarea />
+        </Input>
+      )
+    }
+
+    if (textarea) {
+      return <Input>{textarea}</Input>
+    }
+
+    if (input) {
+      return <Input>{input}</Input>
+    }
+
+    return (
+      <Input>
+        <input />
+      </Input>
+    )
   }
 
   renderLabel(label: React.ReactNode) {
@@ -78,7 +98,8 @@ class TextField extends withControl<TextFieldProps>(MDCTextField) {
       leadingIcon,
       trailingIcon,
       label,
-      children,
+      input,
+      textarea,
       outlined,
       helperText,
       fullwidth,
@@ -88,7 +109,7 @@ class TextField extends withControl<TextFieldProps>(MDCTextField) {
     const textField = (
       <div {...props} ref={this.control}>
         {leadingIcon ? this.renderIcon(leadingIcon) : null}
-        {this.renderInput(children)}
+        {this.renderInput()}
         {label && !outlined ? this.renderLabel(label) : null}
         {trailingIcon ? this.renderIcon(trailingIcon) : null}
         {outlined ? (
@@ -115,10 +136,10 @@ class TextField extends withControl<TextFieldProps>(MDCTextField) {
 export default materialize<TextFieldProps>('mdc-text-field', {
   cssProps,
   keepCssProps: [
+    'textarea',
     'fullwidth',
     'outlined',
     'leadingIcon',
     'trailingIcon',
-    'children',
   ],
 })(TextField)

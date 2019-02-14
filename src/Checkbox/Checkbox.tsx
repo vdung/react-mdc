@@ -16,25 +16,29 @@ export interface CheckboxProps {
   indeterminate?: boolean
   disabled?: boolean
   value?: string
-  children: React.ReactHTMLElement<HTMLInputElement>
+  input?: React.ReactHTMLElement<HTMLInputElement>
 }
 
 class Checkbox extends withControl<CheckboxProps>(MDCCheckbox, {
   controlProps: ['disabled', 'indeterminate', 'checked', 'value'],
 }) {
+  renderInput(input?: React.ReactHTMLElement<HTMLInputElement>) {
+    return input || <input />
+  }
+
   render() {
     const {
       disabled,
       indeterminate,
       checked,
       value,
-      children,
+      input,
       ...props
     } = this.props
     return (
       <div {...props} ref={this.control}>
         <Input type="checkbox" disabled={disabled}>
-          {children}
+          {this.renderInput(input)}
         </Input>
         <Background>
           <Checkmark viewBox="0 0 24 24">

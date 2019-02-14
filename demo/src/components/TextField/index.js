@@ -31,9 +31,10 @@ class TextFieldDemo extends React.Component {
 export const Basic = () => (
   <TextFieldDemo
     textField={({ value, onChange }) => (
-      <TextField label="Email Address">
-        <input value={value} onChange={onChange} />
-      </TextField>
+      <TextField
+        label="Email Address"
+        input={<input value={value} onChange={onChange} />}
+      />
     )}
   />
 )
@@ -48,15 +49,16 @@ export const PasswordWithValidation = () => (
             Must be at least 8 characters long
           </TextFieldHelperText>
         }
-      >
-        <input
-          required
-          type="password"
-          pattern=".{8,}"
-          value={value}
-          onChange={onChange}
-        />
-      </TextField>
+        input={
+          <input
+            required
+            type="password"
+            pattern=".{8,}"
+            value={value}
+            onChange={onChange}
+          />
+        }
+      />
     )}
   />
 )
@@ -64,19 +66,18 @@ export const PasswordWithValidation = () => (
 export const Outlined = () => (
   <TextFieldDemo
     textField={({ value, onChange }) => (
-      <div>
-        <TextField
-          label="Your Name"
-          helperText={
-            <TextFieldHelperText persistent validation>
-              Must be at least 8 characters
-            </TextFieldHelperText>
-          }
-          outlined
-        >
+      <TextField
+        label="Your Name"
+        outlined
+        helperText={
+          <TextFieldHelperText persistent validation>
+            Must be at least 8 characters
+          </TextFieldHelperText>
+        }
+        input={
           <input required pattern=".{8,}" value={value} onChange={onChange} />
-        </TextField>
-      </div>
+        }
+      />
     )}
   />
 )
@@ -84,9 +85,12 @@ export const Outlined = () => (
 export const LeadingIcon = () => (
   <TextFieldDemo
     textField={({ value, onChange }) => (
-      <TextField label="Date" leadingIcon="event" outlined>
-        <input value={value} onChange={onChange} />
-      </TextField>
+      <TextField
+        label="Date"
+        leadingIcon="event"
+        outlined
+        input={<input value={value} onChange={onChange} />}
+      />
     )}
   />
 )
@@ -99,9 +103,8 @@ export const TrailingIcon = () => (
         value={value}
         onChange={onChange}
         trailingIcon="delete"
-      >
-        <input value={value} onChange={onChange} />
-      </TextField>
+        input={<input value={value} onChange={onChange} />}
+      />
     )}
   />
 )
@@ -109,9 +112,11 @@ export const TrailingIcon = () => (
 export const TextArea = () => (
   <TextFieldDemo
     textField={({ value, onChange }) => (
-      <TextField label="Address" outlined>
-        <textarea value={value} onChange={onChange} />
-      </TextField>
+      <TextField
+        label="Address"
+        outlined
+        textarea={<textarea value={value} onChange={onChange} />}
+      />
     )}
   />
 )
@@ -119,15 +124,18 @@ export const TextArea = () => (
 export const FullWidth = () => (
   <TextFieldDemo
     textField={({ value, onChange }) => (
-      <TextField fullwidth>
-        <input
-          type="text"
-          placeholder="Address"
-          aria-label="Address"
-          value={value}
-          onChange={onChange}
-        />
-      </TextField>
+      <TextField
+        fullwidth
+        input={
+          <input
+            type="text"
+            placeholder="Address"
+            aria-label="Address"
+            value={value}
+            onChange={onChange}
+          />
+        }
+      />
     )}
   />
 )
@@ -135,9 +143,12 @@ export const FullWidth = () => (
 export const FullWidthTextArea = () => (
   <TextFieldDemo
     textField={({ value, onChange }) => (
-      <TextField label="Address" outlined fullwidth>
-        <textarea value={value} onChange={onChange} />
-      </TextField>
+      <TextField
+        label="Address"
+        outlined
+        fullwidth
+        textarea={<textarea value={value} onChange={onChange} />}
+      />
     )}
   />
 )

@@ -33,9 +33,8 @@ export const Basic = () => (
         <Checkbox
           checked={checked}
           indeterminate={typeof checked !== 'boolean'}
-        >
-          <input id="basic-checkbox" onChange={onChange} />
-        </Checkbox>
+          input={<input id="basic-checkbox" onChange={onChange} />}
+        />
         <label htmlFor="basic-checkbox">Checkbox</label>
       </FormField>
     )}

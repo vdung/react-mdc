@@ -14,7 +14,7 @@ interface RadioProps {
   disabled?: boolean
   checked?: boolean
   value?: string
-  children: React.ReactHTMLElement<HTMLInputElement>
+  input?: React.ReactHTMLElement<HTMLInputElement>
 }
 
 const Input = materialize<React.HTMLProps<HTMLInputElement>>(
@@ -27,12 +27,16 @@ const InnerCircle = materialize('mdc-radio__inner-circle')('div')
 class Radio extends withControl<RadioProps>(MDCRadio, {
   controlProps: ['disabled', 'checked', 'value'],
 }) {
+  renderInput(input?: React.ReactHTMLElement<HTMLInputElement>) {
+    return input || <input />
+  }
+
   render() {
-    const { disabled, checked, value, children, ...props } = this.props
+    const { disabled, checked, value, input, ...props } = this.props
     return (
       <div {...props} ref={this.control}>
         <Input type="radio" disabled={disabled}>
-          {children}
+          {this.renderInput(input)}
         </Input>
         <Background>
           <OuterCircle />

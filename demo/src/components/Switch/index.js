@@ -32,9 +32,10 @@ export const Basic = () => (
   <SwitchDemo
     switch={({ checked, onChange }) => (
       <FormField>
-        <Switch checked={checked}>
-          <input id="basic-switch" onChange={onChange} />
-        </Switch>
+        <Switch
+          checked={checked}
+          input={<input id="basic-switch" onChange={onChange} />}
+        />
         <label htmlFor="basic-switch">On/Off</label>
       </FormField>
     )}
@@ -45,9 +46,7 @@ export const Disabled = () => (
   <SwitchDemo
     switch={({ checked, onChange }) => (
       <FormField>
-        <Switch disabled>
-          <input id="disabled-switch" />
-        </Switch>
+        <Switch disabled input={<input id="disabled-switch" />} />
         <label htmlFor="disabled-switch">Disabled</label>
       </FormField>
     )}

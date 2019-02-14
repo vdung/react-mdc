@@ -18,7 +18,7 @@ const ThumbUnderLay = materialize('mdc-switch__thumb-underlay')('div')
 export interface SwitchProps {
   disabled?: boolean
   checked?: boolean
-  children: React.ReactHTMLElement<HTMLInputElement>
+  input?: React.ReactHTMLElement<HTMLInputElement>
 }
 
 const cssProps: CssProps<SwitchProps> = ['disabled', 'checked']
@@ -26,15 +26,19 @@ const cssProps: CssProps<SwitchProps> = ['disabled', 'checked']
 class Switch extends withControl<SwitchProps>(MDCSwitch, {
   controlProps: ['disabled', 'checked'],
 }) {
+  renderInput(input?: React.ReactHTMLElement<HTMLInputElement>) {
+    return input || <input />
+  }
+
   render() {
-    const { disabled, checked, children, ...props } = this.props
+    const { disabled, checked, input, ...props } = this.props
     return (
       <div {...props} ref={this.control}>
         <Track />
         <ThumbUnderLay>
           <Thumb>
             <Input type="checkbox" role="switch">
-              {children}
+              {this.renderInput(input)}
             </Input>
           </Thumb>
         </ThumbUnderLay>
