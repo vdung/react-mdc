@@ -40,3 +40,14 @@ export const Basic = () => (
     )}
   />
 )
+
+export const Disabled = () => (
+  <CheckboxDemo
+    checkbox={() => (
+      <FormField>
+        <Checkbox disabled input={<input id="basic-checkbox" />} />
+        <label htmlFor="basic-checkbox">Checkbox</label>
+      </FormField>
+    )}
+  />
+)

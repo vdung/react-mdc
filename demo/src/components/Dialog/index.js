@@ -11,13 +11,6 @@ import {
   Button,
 } from '@vdung/react-mdc'
 
-const DialogPropTypes = {
-  open: PropTypes.bool,
-  onOpen: PropTypes.func,
-  onClose: PropTypes.func,
-  elemRef: PropTypes.func,
-}
-
 class DialogDemo extends React.Component {
   static propTypes = {
     dialog: PropTypes.oneOfType([PropTypes.object, PropTypes.func]),
