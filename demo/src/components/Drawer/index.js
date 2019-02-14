@@ -55,13 +55,9 @@ export const Modal = () => (
   <DrawerDemo
     drawer={({ open, onClose, onToggle }) => (
       <div className="drawer__layout">
-        <TopAppBar fixed>
+        <TopAppBar fixed onNav={onToggle}>
           <TopAppBarNavigation
-            icon={
-              <Ripple>
-                <MaterialIcon onClick={onToggle}>menu</MaterialIcon>
-              </Ripple>
-            }
+            icon={<MaterialIcon>menu</MaterialIcon>}
             title="React-Mdc Demo"
           />
         </TopAppBar>
@@ -91,13 +87,9 @@ export const Dimissible = () => (
           </DrawerContent>
         </Drawer>
         <DrawerAppContent className="drawer__content">
-          <TopAppBar>
+          <TopAppBar onNav={onToggle}>
             <TopAppBarNavigation
-              icon={
-                <Ripple>
-                  <MaterialIcon onClick={onToggle}>menu</MaterialIcon>
-                </Ripple>
-              }
+              icon={<MaterialIcon>menu</MaterialIcon>}
               title="React-Mdc Demo"
             />
           </TopAppBar>

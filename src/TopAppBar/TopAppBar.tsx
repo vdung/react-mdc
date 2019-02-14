@@ -1,7 +1,7 @@
 import * as React from 'react'
 // @ts-ignore no .d.ts file
 import { MDCTopAppBar } from '@material/top-app-bar'
-import { materialize, withControl, CssProps } from '../Base'
+import { materialize, withControl, CssProps, EventHandler } from '../Base'
 
 const Row = materialize('mdc-top-app-bar__row')('div')
 
@@ -11,6 +11,7 @@ export interface TopAppBarProps {
   dense?: boolean
   short?: boolean
   shortCollapsed?: boolean
+  onNav?: EventHandler
 }
 
 const cssProps: CssProps<TopAppBarProps> = {
@@ -21,7 +22,11 @@ const cssProps: CssProps<TopAppBarProps> = {
   shortCollapsed: 'short-collapsed',
 }
 
-class TopAppBar extends withControl<TopAppBarProps>(MDCTopAppBar) {
+class TopAppBar extends withControl<TopAppBarProps>(MDCTopAppBar, {
+  events: {
+    'MDCTopAppBar:nav': 'onNav',
+  },
+}) {
   render() {
     const { children, ...props } = this.props
     return (

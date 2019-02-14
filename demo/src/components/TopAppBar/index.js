@@ -6,9 +6,7 @@ import {
   TopAppBarActionItems,
   TopAppBarFixedAdjust,
   TopAppBarNavigation,
-  Icon,
-  Menu,
-  List,
+  MaterialIcon,
 } from '@vdung/react-mdc'
 
 const Main = props => (
@@ -34,11 +32,14 @@ const Main = props => (
 export const Normal = () => (
   <div>
     <TopAppBar>
-      <TopAppBarNavigation title="Title" icon={<Icon>menu</Icon>} />
+      <TopAppBarNavigation
+        title="Title"
+        icon={<MaterialIcon>menu</MaterialIcon>}
+      />
       <TopAppBarActionItems>
-        <Icon>file_download</Icon>
-        <Icon>print</Icon>
-        <Icon>bookmark</Icon>
+        <MaterialIcon>file_download</MaterialIcon>
+        <MaterialIcon>print</MaterialIcon>
+        <MaterialIcon>bookmark</MaterialIcon>
       </TopAppBarActionItems>
     </TopAppBar>
     <Main />
@@ -48,11 +49,14 @@ export const Normal = () => (
 export const Fixed = () => (
   <div>
     <TopAppBar fixed>
-      <TopAppBarNavigation title="Title" icon={<Icon>menu</Icon>} />
+      <TopAppBarNavigation
+        title="Title"
+        icon={<MaterialIcon>menu</MaterialIcon>}
+      />
       <TopAppBarActionItems>
-        <Icon>file_download</Icon>
-        <Icon>print</Icon>
-        <Icon>bookmark</Icon>
+        <MaterialIcon>file_download</MaterialIcon>
+        <MaterialIcon>print</MaterialIcon>
+        <MaterialIcon>bookmark</MaterialIcon>
       </TopAppBarActionItems>
     </TopAppBar>
     <Main />
@@ -62,11 +66,14 @@ export const Fixed = () => (
 export const Prominent = () => (
   <div>
     <TopAppBar prominent>
-      <TopAppBarNavigation title="Title" icon={<Icon>menu</Icon>} />
+      <TopAppBarNavigation
+        title="Title"
+        icon={<MaterialIcon>menu</MaterialIcon>}
+      />
       <TopAppBarActionItems>
-        <Icon>file_download</Icon>
-        <Icon>print</Icon>
-        <Icon>bookmark</Icon>
+        <MaterialIcon>file_download</MaterialIcon>
+        <MaterialIcon>print</MaterialIcon>
+        <MaterialIcon>bookmark</MaterialIcon>
       </TopAppBarActionItems>
     </TopAppBar>
     <Main prominent />
@@ -76,11 +83,11 @@ export const Prominent = () => (
 export const Dense = () => (
   <div>
     <TopAppBar dense>
-      <TopAppBarNavigation title="Title" icon={<Icon>menu</Icon>} />
+      <TopAppBarNavigation title="Title" icon={<MaterialIcon>menu</MaterialIcon>} />
       <TopAppBarActionItems>
-        <Icon>file_download</Icon>
-        <Icon>print</Icon>
-        <Icon>bookmark</Icon>
+        <MaterialIcon>file_download</MaterialIcon>
+        <MaterialIcon>print</MaterialIcon>
+        <MaterialIcon>bookmark</MaterialIcon>
       </TopAppBarActionItems>
     </TopAppBar>
     <Main dense />
@@ -90,11 +97,11 @@ export const Dense = () => (
 export const DenseProminent = () => (
   <div>
     <TopAppBar dense prominent>
-      <TopAppBarNavigation title="Title" icon={<Icon>menu</Icon>} />
+      <TopAppBarNavigation title="Title" icon={<MaterialIcon>menu</MaterialIcon>} />
       <TopAppBarActionItems>
-        <Icon>file_download</Icon>
-        <Icon>print</Icon>
-        <Icon>bookmark</Icon>
+        <MaterialIcon>file_download</MaterialIcon>
+        <MaterialIcon>print</MaterialIcon>
+        <MaterialIcon>bookmark</MaterialIcon>
       </TopAppBarActionItems>
     </TopAppBar>
     <Main dense prominent />
@@ -104,9 +111,9 @@ export const DenseProminent = () => (
 export const Short = () => (
   <div>
     <TopAppBar short>
-      <TopAppBarNavigation title="Title" icon={<Icon>menu</Icon>} />
+      <TopAppBarNavigation title="Title" icon={<MaterialIcon>menu</MaterialIcon>} />
       <TopAppBarActionItems>
-        <Icon>file_download</Icon>
+        <MaterialIcon>file_download</MaterialIcon>
       </TopAppBarActionItems>
     </TopAppBar>
     <Main short />
@@ -116,9 +123,9 @@ export const Short = () => (
 export const ShortCollapsed = () => (
   <div>
     <TopAppBar short shortCollapsed>
-      <TopAppBarNavigation title="Title" icon={<Icon>menu</Icon>} />
+      <TopAppBarNavigation title="Title" icon={<MaterialIcon>menu</MaterialIcon>} />
       <TopAppBarActionItems>
-        <Icon>file_download</Icon>
+        <MaterialIcon>file_download</MaterialIcon>
       </TopAppBarActionItems>
     </TopAppBar>
     <Main short />
