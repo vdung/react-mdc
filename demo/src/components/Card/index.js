@@ -12,6 +12,7 @@ import {
   MaterialIcon,
   Ripple,
   ListGroupDivider,
+  IconButton,
 } from '@vdung/react-mdc'
 import './Card.css'
 import image16x9 from '../../assets/16-9.jpg'
@@ -77,8 +78,11 @@ export const Photo = () => (
     </CardPrimaryAction>
     <CardActions>
       <CardActionIcons>
-        <MaterialIcon>favorite_border</MaterialIcon>
-        <MaterialIcon>bookmark_border</MaterialIcon>
+        <IconButton
+          icon={<MaterialIcon>favorite_border</MaterialIcon>}
+          iconOn="favorite"
+        />
+        <IconButton icon={<MaterialIcon>bookmark_border</MaterialIcon>} />
         <MaterialIcon>share</MaterialIcon>
       </CardActionIcons>
     </CardActions>
