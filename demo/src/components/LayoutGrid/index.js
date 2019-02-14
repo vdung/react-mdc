@@ -15,8 +15,10 @@ export const Default = () => (
 export const Column1 = () => (
   <LayoutGrid className="layout-grid-demo">
     <LayoutGridInner>
-      {Array.from({ length: 12 }, () => (
-        <LayoutGridCell span={1}>1</LayoutGridCell>
+      {Array.from({ length: 12 }, (_, i) => (
+        <LayoutGridCell span={1} key={i}>
+          1
+        </LayoutGridCell>
       ))}
     </LayoutGridInner>
   </LayoutGrid>

@@ -1,0 +1,4927 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Button Raised 1`] = `
+<div
+  className="btn-container"
+>
+  <button
+    className="mdc-button mdc-button--raised"
+  >
+    Baseline
+  </button>
+  <button
+    className="mdc-button mdc-button--dense mdc-button--raised"
+  >
+    Dense
+  </button>
+  <button
+    className="mdc-button secondary-btn mdc-button--raised"
+  >
+    Secondary
+  </button>
+  <button
+    className="mdc-button mdc-button--raised"
+  >
+    <i
+      className="material-icons mdc-button__icon"
+    >
+      favorite
+    </i>
+    Icon
+  </button>
+</div>
+`;
+
+exports[`Storyshots Button Text 1`] = `
+<div
+  className="btn-container"
+>
+  <button
+    className="mdc-button"
+  >
+    Baseline
+  </button>
+  <button
+    className="mdc-button mdc-button--dense"
+  >
+    Dense
+  </button>
+  <button
+    className="mdc-button secondary-btn"
+  >
+    Secondary
+  </button>
+  <button
+    className="mdc-button"
+  >
+    <i
+      className="material-icons mdc-button__icon"
+    >
+      favorite
+    </i>
+    Icon
+  </button>
+</div>
+`;
+
+exports[`Storyshots Card FullFeatured 1`] = `
+<div
+  className="mdc-card"
+>
+  <div
+    className="mdc-card__primary-action"
+  >
+    <div
+      className="mdc-card__media mdc-card__media--16-9"
+      style={
+        Object {
+          "backgroundImage": "url(\\"test-file-stub\\")",
+        }
+      }
+    />
+    <div
+      style={
+        Object {
+          "padding": "1rem",
+        }
+      }
+    >
+      <div
+        className="mdc-typography"
+        title={true}
+      >
+        <h2>
+          Our Changing Planet
+        </h2>
+      </div>
+      <div
+        className="mdc-typography"
+        subheading1={true}
+      >
+        <h3>
+          by Kurt Wagner
+        </h3>
+      </div>
+    </div>
+    <p
+      className="mdc-typography mdc-typography--body1"
+    >
+      <div
+        style={
+          Object {
+            "padding": "0 1rem 8px 1rem",
+          }
+        }
+      >
+        Visit ten places on our planet that are undergoing the biggest changes today.
+      </div>
+    </p>
+  </div>
+  <div
+    className="mdc-card__actions"
+  >
+    <div
+      className="mdc-card__action-buttons"
+    >
+      <button
+        className="mdc-button mdc-ripple-surface mdc-card__action mdc-card__action--button"
+      >
+        Read
+      </button>
+      <button
+        className="mdc-button mdc-ripple-surface mdc-card__action mdc-card__action--button"
+      >
+        Bookmark
+      </button>
+    </div>
+    <div
+      className="mdc-card__action-icons"
+    >
+      <i
+        className="material-icons mdc-ripple-surface mdc-card__action mdc-card__action--icon"
+      >
+        more_vert
+      </i>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Card Music 1`] = `
+<div
+  className="mdc-card"
+>
+  <div
+    className="mdc-card__primary-action"
+  >
+    <div
+      className="music-card__content"
+    >
+      <div
+        className="mdc-card__media music-card__media mdc-card__media--square"
+        style={
+          Object {
+            "backgroundImage": "url(\\"test-file-stub\\")",
+          }
+        }
+      />
+      <div
+        className="music-card__info"
+      >
+        <div
+          className="mdc-typography"
+          headline={true}
+        >
+          <div>
+            Rozes
+          </div>
+        </div>
+        <p
+          className="mdc-typography mdc-typography--body1"
+        >
+          <div>
+            Under the Grave
+          </div>
+        </p>
+        <p
+          className="mdc-typography mdc-typography--body1"
+        >
+          <div>
+            (2016)
+          </div>
+        </p>
+      </div>
+    </div>
+  </div>
+  <hr
+    className="mdc-list-divider"
+    role="separator"
+  />
+  <div
+    className="mdc-card__actions"
+  >
+    <div
+      className="mdc-card__action-buttons"
+    >
+      <button
+        className="mdc-button mdc-card__action mdc-card__action--button"
+      >
+        Rate this album
+      </button>
+    </div>
+    <div
+      className="mdc-card__action-icons"
+    >
+      <i
+        className="material-icons mdc-card__action mdc-card__action--icon"
+      >
+        star_border
+      </i>
+      <i
+        className="material-icons mdc-card__action mdc-card__action--icon"
+      >
+        star_border
+      </i>
+      <i
+        className="material-icons mdc-card__action mdc-card__action--icon"
+      >
+        star_border
+      </i>
+      <i
+        className="material-icons mdc-card__action mdc-card__action--icon"
+      >
+        star_border
+      </i>
+      <i
+        className="material-icons mdc-card__action mdc-card__action--icon"
+      >
+        star_border
+      </i>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Card Photo 1`] = `
+<div
+  className="mdc-card"
+>
+  <div
+    className="mdc-card__primary-action"
+  >
+    <div
+      className="mdc-card__media mdc-card__media--square"
+      style={
+        Object {
+          "backgroundImage": "url(\\"test-file-stub\\")",
+        }
+      }
+    >
+      <div
+        className="mdc-card__media-content photo-card__media-content"
+      >
+        <div
+          className="mdc-typography"
+          subheading2={true}
+        >
+          <div
+            className="photo-card__media-title"
+          >
+            Vacation Photos
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="mdc-card__actions"
+  >
+    <div
+      className="mdc-card__action-icons"
+    >
+      <button
+        aria-hidden={true}
+        className="mdc-icon-button mdc-card__action mdc-card__action--icon"
+      >
+        <i
+          className="material-icons mdc-icon-button__icon mdc-icon-button__icon--on"
+        >
+          favorite
+        </i>
+        <i
+          className="material-icons mdc-icon-button__icon"
+        >
+          favorite_border
+        </i>
+      </button>
+      <button
+        className="mdc-icon-button mdc-card__action mdc-card__action--icon"
+      >
+        <i
+          className="material-icons"
+        >
+          bookmark_border
+        </i>
+      </button>
+      <i
+        className="material-icons mdc-card__action mdc-card__action--icon"
+      >
+        share
+      </i>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Checkbox Basic 1`] = `
+<div
+  className="mdc-form-field"
+>
+  <div
+    className="mdc-checkbox"
+  >
+    <input
+      className="mdc-checkbox__native-control"
+      id="basic-checkbox"
+      onChange={[Function]}
+      type="checkbox"
+    />
+    <div
+      className="mdc-checkbox__background"
+    >
+      <svg
+        className="mdc-checkbox__checkmark"
+        viewBox="0 0 24 24"
+      >
+        <path
+          className="mdc-checkbox__checkmark-path"
+          d="M1.73,12.91 8.1,19.28 22.79,4.59"
+          fill="none"
+        />
+      </svg>
+      <div
+        className="mdc-checkbox__mixedmark"
+      />
+    </div>
+  </div>
+  <label
+    htmlFor="basic-checkbox"
+  >
+    Checkbox
+  </label>
+</div>
+`;
+
+exports[`Storyshots Checkbox Disabled 1`] = `
+<div
+  className="mdc-form-field"
+>
+  <div
+    className="mdc-checkbox"
+  >
+    <input
+      className="mdc-checkbox__native-control"
+      disabled={true}
+      id="basic-checkbox"
+      type="checkbox"
+    />
+    <div
+      className="mdc-checkbox__background"
+    >
+      <svg
+        className="mdc-checkbox__checkmark"
+        viewBox="0 0 24 24"
+      >
+        <path
+          className="mdc-checkbox__checkmark-path"
+          d="M1.73,12.91 8.1,19.28 22.79,4.59"
+          fill="none"
+        />
+      </svg>
+      <div
+        className="mdc-checkbox__mixedmark"
+      />
+    </div>
+  </div>
+  <label
+    htmlFor="basic-checkbox"
+  >
+    Checkbox
+  </label>
+</div>
+`;
+
+exports[`Storyshots Dialog Default 1`] = `
+<div
+  style={
+    Object {
+      "padding": 16,
+    }
+  }
+>
+  <button
+    className="mdc-button mdc-button--raised"
+    onClick={[Function]}
+  >
+    Show Dialog
+  </button>
+  <div
+    className="mdc-dialog"
+    role="alertdialog"
+  >
+    <div
+      className="mdc-dialog__container"
+    >
+      <div
+        className="mdc-dialog__surface"
+      >
+        <h2
+          className="mdc-dialog__title"
+        >
+          Are you happy?
+        </h2>
+        <div
+          className="mdc-dialog__content"
+        >
+          Please check the left and right side of this element for fun.
+        </div>
+        <footer
+          className="mdc-dialog__actions"
+        >
+          <button
+            className="mdc-button mdc-dialog__button"
+            data-mdc-dialog-action="cancel"
+          >
+            Cancel
+          </button>
+          <button
+            className="mdc-button mdc-dialog__button"
+            data-mdc-dialog-action="accept"
+          >
+            Accept
+          </button>
+        </footer>
+      </div>
+    </div>
+    <div
+      className="mdc-dialog__scrim"
+    />
+  </div>
+</div>
+`;
+
+exports[`Storyshots Dialog Scrolling 1`] = `
+<div
+  style={
+    Object {
+      "padding": 16,
+    }
+  }
+>
+  <button
+    className="mdc-button mdc-button--raised"
+    onClick={[Function]}
+  >
+    Show Dialog
+  </button>
+  <div
+    className="mdc-dialog"
+    role="alertdialog"
+  >
+    <div
+      className="mdc-dialog__container"
+    >
+      <div
+        className="mdc-dialog__surface"
+      >
+        <h2
+          className="mdc-dialog__title"
+        >
+          Are you happy?
+        </h2>
+        <div
+          className="mdc-dialog__content"
+        >
+          <ul
+            className="mdc-list"
+          >
+            <li
+              className="mdc-list-item"
+            >
+              Item 1
+            </li>
+            <li
+              className="mdc-list-item"
+            >
+              Item 2
+            </li>
+            <li
+              className="mdc-list-item"
+            >
+              Item 3
+            </li>
+            <li
+              className="mdc-list-item"
+            >
+              Item 4
+            </li>
+            <li
+              className="mdc-list-item"
+            >
+              Item 5
+            </li>
+            <li
+              className="mdc-list-item"
+            >
+              Item 6
+            </li>
+            <li
+              className="mdc-list-item"
+            >
+              Item 7
+            </li>
+            <li
+              className="mdc-list-item"
+            >
+              Item 8
+            </li>
+            <li
+              className="mdc-list-item"
+            >
+              Item 9
+            </li>
+            <li
+              className="mdc-list-item"
+            >
+              Item 10
+            </li>
+          </ul>
+        </div>
+        <footer
+          className="mdc-dialog__actions"
+        >
+          <button
+            className="mdc-button mdc-dialog__button"
+            data-mdc-dialog-action="cancel"
+          >
+            Cancel
+          </button>
+          <button
+            className="mdc-button mdc-dialog__button"
+            data-mdc-dialog-action="accept"
+          >
+            Accept
+          </button>
+        </footer>
+      </div>
+    </div>
+    <div
+      className="mdc-dialog__scrim"
+    />
+  </div>
+</div>
+`;
+
+exports[`Storyshots Drawer Dimissible 1`] = `
+Array [
+  <style>
+    body { margin: 0px }
+  </style>,
+  <div
+    className="drawer__layout"
+  >
+    <aside
+      className="mdc-drawer mdc-drawer--dismissible"
+    >
+      <div
+        className="mdc-drawer__header"
+      />
+      <div
+        className="mdc-drawer__content"
+      >
+        <ul
+          className="mdc-list"
+        >
+          <a
+            className="mdc-list-item mdc-list-item--activated"
+          >
+            Home
+          </a>
+        </ul>
+      </div>
+    </aside>
+    <div
+      className="mdc-drawer-app-content drawer__content"
+    >
+      <header
+        className="mdc-top-app-bar"
+        onNav={[Function]}
+      >
+        <div
+          className="mdc-top-app-bar__row"
+        >
+          <section
+            className="mdc-top-app-bar__section mdc-top-app-bar__section--align-start"
+          >
+            <i
+              className="material-icons mdc-top-app-bar__navigation-icon"
+            >
+              menu
+            </i>
+            <span
+              className="mdc-top-app-bar__title"
+            >
+              React-Mdc Demo
+            </span>
+          </section>
+        </div>
+      </header>
+    </div>
+  </div>,
+]
+`;
+
+exports[`Storyshots Drawer Modal 1`] = `
+Array [
+  <style>
+    body { margin: 0px }
+  </style>,
+  <div
+    className="drawer__layout"
+  >
+    <header
+      className="mdc-top-app-bar mdc-top-app-bar--fixed"
+      onNav={[Function]}
+    >
+      <div
+        className="mdc-top-app-bar__row"
+      >
+        <section
+          className="mdc-top-app-bar__section mdc-top-app-bar__section--align-start"
+        >
+          <i
+            className="material-icons mdc-top-app-bar__navigation-icon"
+          >
+            menu
+          </i>
+          <span
+            className="mdc-top-app-bar__title"
+          >
+            React-Mdc Demo
+          </span>
+        </section>
+      </div>
+    </header>
+    <aside
+      className="mdc-drawer mdc-drawer--modal"
+    >
+      <div
+        className="mdc-drawer__header"
+      />
+      <div
+        className="mdc-drawer__content"
+      >
+        <ul
+          className="mdc-list"
+        >
+          <a
+            className="mdc-list-item mdc-list-item--activated"
+          >
+            Home
+          </a>
+        </ul>
+      </div>
+    </aside>
+    <div
+      className="mdc-drawer-scrim"
+    />
+  </div>,
+]
+`;
+
+exports[`Storyshots Drawer Permanent 1`] = `
+Array [
+  <style>
+    body { margin: 0px }
+  </style>,
+  <div
+    className="drawer__layout"
+  >
+    <aside
+      className="mdc-drawer"
+    >
+      <div
+        className="mdc-drawer__header"
+      />
+      <div
+        className="mdc-drawer__content"
+      >
+        <ul
+          className="mdc-list"
+        >
+          <a
+            className="mdc-list-item mdc-list-item--activated"
+          >
+            Home
+          </a>
+        </ul>
+      </div>
+    </aside>
+    <div
+      className="mdc-drawer-app-content drawer__content"
+    >
+      <header
+        className="mdc-top-app-bar"
+      >
+        <div
+          className="mdc-top-app-bar__row"
+        >
+          <section
+            className="mdc-top-app-bar__section mdc-top-app-bar__section--align-start"
+          >
+            <span
+              className="mdc-top-app-bar__title"
+            >
+              React-Mdc Demo
+            </span>
+          </section>
+        </div>
+      </header>
+    </div>
+  </div>,
+]
+`;
+
+exports[`Storyshots Elevation All 1`] = `
+<div
+  className="elevation__surface"
+>
+  <div
+    className="mdc-elevation mdc-elevation--z0 elevation__cell"
+  >
+    <code>
+      Elevation z={0}
+    </code>
+  </div>
+  <div
+    className="mdc-elevation mdc-elevation--z1 elevation__cell"
+  >
+    <code>
+      Elevation z={1}
+    </code>
+  </div>
+  <div
+    className="mdc-elevation mdc-elevation--z2 elevation__cell"
+  >
+    <code>
+      Elevation z={2}
+    </code>
+  </div>
+  <div
+    className="mdc-elevation mdc-elevation--z3 elevation__cell"
+  >
+    <code>
+      Elevation z={3}
+    </code>
+  </div>
+  <div
+    className="mdc-elevation mdc-elevation--z4 elevation__cell"
+  >
+    <code>
+      Elevation z={4}
+    </code>
+  </div>
+  <div
+    className="mdc-elevation mdc-elevation--z5 elevation__cell"
+  >
+    <code>
+      Elevation z={5}
+    </code>
+  </div>
+  <div
+    className="mdc-elevation mdc-elevation--z6 elevation__cell"
+  >
+    <code>
+      Elevation z={6}
+    </code>
+  </div>
+  <div
+    className="mdc-elevation mdc-elevation--z7 elevation__cell"
+  >
+    <code>
+      Elevation z={7}
+    </code>
+  </div>
+  <div
+    className="mdc-elevation mdc-elevation--z8 elevation__cell"
+  >
+    <code>
+      Elevation z={8}
+    </code>
+  </div>
+  <div
+    className="mdc-elevation mdc-elevation--z9 elevation__cell"
+  >
+    <code>
+      Elevation z={9}
+    </code>
+  </div>
+  <div
+    className="mdc-elevation mdc-elevation--z10 elevation__cell"
+  >
+    <code>
+      Elevation z={10}
+    </code>
+  </div>
+  <div
+    className="mdc-elevation mdc-elevation--z11 elevation__cell"
+  >
+    <code>
+      Elevation z={11}
+    </code>
+  </div>
+  <div
+    className="mdc-elevation mdc-elevation--z12 elevation__cell"
+  >
+    <code>
+      Elevation z={12}
+    </code>
+  </div>
+  <div
+    className="mdc-elevation mdc-elevation--z13 elevation__cell"
+  >
+    <code>
+      Elevation z={13}
+    </code>
+  </div>
+  <div
+    className="mdc-elevation mdc-elevation--z14 elevation__cell"
+  >
+    <code>
+      Elevation z={14}
+    </code>
+  </div>
+  <div
+    className="mdc-elevation mdc-elevation--z15 elevation__cell"
+  >
+    <code>
+      Elevation z={15}
+    </code>
+  </div>
+  <div
+    className="mdc-elevation mdc-elevation--z16 elevation__cell"
+  >
+    <code>
+      Elevation z={16}
+    </code>
+  </div>
+  <div
+    className="mdc-elevation mdc-elevation--z17 elevation__cell"
+  >
+    <code>
+      Elevation z={17}
+    </code>
+  </div>
+  <div
+    className="mdc-elevation mdc-elevation--z18 elevation__cell"
+  >
+    <code>
+      Elevation z={18}
+    </code>
+  </div>
+  <div
+    className="mdc-elevation mdc-elevation--z19 elevation__cell"
+  >
+    <code>
+      Elevation z={19}
+    </code>
+  </div>
+  <div
+    className="mdc-elevation mdc-elevation--z20 elevation__cell"
+  >
+    <code>
+      Elevation z={20}
+    </code>
+  </div>
+  <div
+    className="mdc-elevation mdc-elevation--z21 elevation__cell"
+  >
+    <code>
+      Elevation z={21}
+    </code>
+  </div>
+  <div
+    className="mdc-elevation mdc-elevation--z22 elevation__cell"
+  >
+    <code>
+      Elevation z={22}
+    </code>
+  </div>
+  <div
+    className="mdc-elevation mdc-elevation--z23 elevation__cell"
+  >
+    <code>
+      Elevation z={23}
+    </code>
+  </div>
+  <div
+    className="mdc-elevation mdc-elevation--z24 elevation__cell"
+  >
+    <code>
+      Elevation z={24}
+    </code>
+  </div>
+</div>
+`;
+
+exports[`Storyshots FAB Fixed 1`] = `
+<button
+  className="mdc-fab mdc-ripple-surface fab-button__fixed"
+>
+  <span
+    className="mdc-fab__icon"
+  >
+    <i
+      className="material-icons"
+    >
+      add
+    </i>
+  </span>
+</button>
+`;
+
+exports[`Storyshots FAB Mini 1`] = `
+<button
+  className="mdc-fab mdc-ripple-surface mdc-fab--mini"
+>
+  <span
+    className="mdc-fab__icon"
+  >
+    <i
+      className="material-icons"
+    >
+      add
+    </i>
+  </span>
+</button>
+`;
+
+exports[`Storyshots FormField AlignEnd 1`] = `
+<div
+  className="mdc-form-field mdc-form-field--align-end"
+>
+  <input />
+  <label>
+    Label
+  </label>
+</div>
+`;
+
+exports[`Storyshots FormField Basic 1`] = `
+<div
+  className="mdc-form-field"
+>
+  <input />
+  <label>
+    Label
+  </label>
+</div>
+`;
+
+exports[`Storyshots LayoutGrid Column1 1`] = `
+<div
+  className="mdc-layout-grid layout-grid-demo"
+>
+  <div
+    className="mdc-layout-grid__inner"
+  >
+    <div
+      className="mdc-layout-grid__cell mdc-layout-grid__cell--span-1 mdc-layout-grid__cell--span-undefined-desktop mdc-layout-grid__cell--span-undefined-tablet mdc-layout-grid__cell--span-undefined-phone mdc-layout-grid__cell--order-undefined"
+    >
+      1
+    </div>
+    <div
+      className="mdc-layout-grid__cell mdc-layout-grid__cell--span-1 mdc-layout-grid__cell--span-undefined-desktop mdc-layout-grid__cell--span-undefined-tablet mdc-layout-grid__cell--span-undefined-phone mdc-layout-grid__cell--order-undefined"
+    >
+      1
+    </div>
+    <div
+      className="mdc-layout-grid__cell mdc-layout-grid__cell--span-1 mdc-layout-grid__cell--span-undefined-desktop mdc-layout-grid__cell--span-undefined-tablet mdc-layout-grid__cell--span-undefined-phone mdc-layout-grid__cell--order-undefined"
+    >
+      1
+    </div>
+    <div
+      className="mdc-layout-grid__cell mdc-layout-grid__cell--span-1 mdc-layout-grid__cell--span-undefined-desktop mdc-layout-grid__cell--span-undefined-tablet mdc-layout-grid__cell--span-undefined-phone mdc-layout-grid__cell--order-undefined"
+    >
+      1
+    </div>
+    <div
+      className="mdc-layout-grid__cell mdc-layout-grid__cell--span-1 mdc-layout-grid__cell--span-undefined-desktop mdc-layout-grid__cell--span-undefined-tablet mdc-layout-grid__cell--span-undefined-phone mdc-layout-grid__cell--order-undefined"
+    >
+      1
+    </div>
+    <div
+      className="mdc-layout-grid__cell mdc-layout-grid__cell--span-1 mdc-layout-grid__cell--span-undefined-desktop mdc-layout-grid__cell--span-undefined-tablet mdc-layout-grid__cell--span-undefined-phone mdc-layout-grid__cell--order-undefined"
+    >
+      1
+    </div>
+    <div
+      className="mdc-layout-grid__cell mdc-layout-grid__cell--span-1 mdc-layout-grid__cell--span-undefined-desktop mdc-layout-grid__cell--span-undefined-tablet mdc-layout-grid__cell--span-undefined-phone mdc-layout-grid__cell--order-undefined"
+    >
+      1
+    </div>
+    <div
+      className="mdc-layout-grid__cell mdc-layout-grid__cell--span-1 mdc-layout-grid__cell--span-undefined-desktop mdc-layout-grid__cell--span-undefined-tablet mdc-layout-grid__cell--span-undefined-phone mdc-layout-grid__cell--order-undefined"
+    >
+      1
+    </div>
+    <div
+      className="mdc-layout-grid__cell mdc-layout-grid__cell--span-1 mdc-layout-grid__cell--span-undefined-desktop mdc-layout-grid__cell--span-undefined-tablet mdc-layout-grid__cell--span-undefined-phone mdc-layout-grid__cell--order-undefined"
+    >
+      1
+    </div>
+    <div
+      className="mdc-layout-grid__cell mdc-layout-grid__cell--span-1 mdc-layout-grid__cell--span-undefined-desktop mdc-layout-grid__cell--span-undefined-tablet mdc-layout-grid__cell--span-undefined-phone mdc-layout-grid__cell--order-undefined"
+    >
+      1
+    </div>
+    <div
+      className="mdc-layout-grid__cell mdc-layout-grid__cell--span-1 mdc-layout-grid__cell--span-undefined-desktop mdc-layout-grid__cell--span-undefined-tablet mdc-layout-grid__cell--span-undefined-phone mdc-layout-grid__cell--order-undefined"
+    >
+      1
+    </div>
+    <div
+      className="mdc-layout-grid__cell mdc-layout-grid__cell--span-1 mdc-layout-grid__cell--span-undefined-desktop mdc-layout-grid__cell--span-undefined-tablet mdc-layout-grid__cell--span-undefined-phone mdc-layout-grid__cell--order-undefined"
+    >
+      1
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots LayoutGrid Default 1`] = `
+<div
+  className="mdc-layout-grid layout-grid-demo"
+>
+  <div
+    className="mdc-layout-grid__inner"
+  >
+    <div
+      className="mdc-layout-grid__cell mdc-layout-grid__cell--span-undefined mdc-layout-grid__cell--span-undefined-desktop mdc-layout-grid__cell--span-undefined-tablet mdc-layout-grid__cell--span-undefined-phone mdc-layout-grid__cell--order-undefined"
+    >
+      4
+    </div>
+    <div
+      className="mdc-layout-grid__cell mdc-layout-grid__cell--span-undefined mdc-layout-grid__cell--span-undefined-desktop mdc-layout-grid__cell--span-undefined-tablet mdc-layout-grid__cell--span-undefined-phone mdc-layout-grid__cell--order-undefined"
+    >
+      4
+    </div>
+    <div
+      className="mdc-layout-grid__cell mdc-layout-grid__cell--span-undefined mdc-layout-grid__cell--span-undefined-desktop mdc-layout-grid__cell--span-undefined-tablet mdc-layout-grid__cell--span-undefined-phone mdc-layout-grid__cell--order-undefined"
+    >
+      4
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots LayoutGrid DifferenlySizedItems 1`] = `
+<div
+  className="mdc-layout-grid layout-grid-demo"
+>
+  <div
+    className="mdc-layout-grid__inner"
+  >
+    <div
+      className="mdc-layout-grid__cell mdc-layout-grid__cell--span-6 mdc-layout-grid__cell--span-undefined-desktop mdc-layout-grid__cell--span-undefined-tablet mdc-layout-grid__cell--span-undefined-phone mdc-layout-grid__cell--order-undefined"
+    >
+      6
+    </div>
+    <div
+      className="mdc-layout-grid__cell mdc-layout-grid__cell--span-4 mdc-layout-grid__cell--span-undefined-desktop mdc-layout-grid__cell--span-undefined-tablet mdc-layout-grid__cell--span-undefined-phone mdc-layout-grid__cell--order-undefined"
+    >
+      4
+    </div>
+    <div
+      className="mdc-layout-grid__cell mdc-layout-grid__cell--span-2 mdc-layout-grid__cell--span-undefined-desktop mdc-layout-grid__cell--span-undefined-tablet mdc-layout-grid__cell--span-undefined-phone mdc-layout-grid__cell--order-undefined"
+    >
+      2
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots LayoutGrid NestedWithinParentCell 1`] = `
+<div
+  className="mdc-layout-grid layout-grid-demo"
+>
+  <div
+    className="mdc-layout-grid__inner"
+  >
+    <div
+      className="mdc-layout-grid__cell layout-grid-demo__parent mdc-layout-grid__cell--span-4 mdc-layout-grid__cell--span-undefined-desktop mdc-layout-grid__cell--span-undefined-tablet mdc-layout-grid__cell--span-undefined-phone mdc-layout-grid__cell--order-undefined"
+    >
+      <div
+        className="mdc-layout-grid__inner"
+      >
+        <div
+          className="mdc-layout-grid__cell mdc-layout-grid__cell--span-4 mdc-layout-grid__cell--span-undefined-desktop mdc-layout-grid__cell--span-undefined-tablet mdc-layout-grid__cell--span-undefined-phone mdc-layout-grid__cell--order-undefined"
+        >
+          Child 4
+        </div>
+        <div
+          className="mdc-layout-grid__cell mdc-layout-grid__cell--span-4 mdc-layout-grid__cell--span-undefined-desktop mdc-layout-grid__cell--span-undefined-tablet mdc-layout-grid__cell--span-undefined-phone mdc-layout-grid__cell--order-undefined"
+        >
+          Child 4
+        </div>
+        <div
+          className="mdc-layout-grid__cell mdc-layout-grid__cell--span-4 mdc-layout-grid__cell--span-undefined-desktop mdc-layout-grid__cell--span-undefined-tablet mdc-layout-grid__cell--span-undefined-phone mdc-layout-grid__cell--order-undefined"
+        >
+          Child 4
+        </div>
+      </div>
+    </div>
+    <div
+      className="mdc-layout-grid__cell mdc-layout-grid__cell--span-4 mdc-layout-grid__cell--span-undefined-desktop mdc-layout-grid__cell--span-undefined-tablet mdc-layout-grid__cell--span-undefined-phone mdc-layout-grid__cell--order-undefined"
+    >
+      4
+    </div>
+    <div
+      className="mdc-layout-grid__cell mdc-layout-grid__cell--span-4 mdc-layout-grid__cell--span-undefined-desktop mdc-layout-grid__cell--span-undefined-tablet mdc-layout-grid__cell--span-undefined-phone mdc-layout-grid__cell--order-undefined"
+    >
+      4
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots LayoutGrid TweakedDifferentSrceenSizes 1`] = `
+<div
+  className="mdc-layout-grid layout-grid-demo"
+>
+  <div
+    className="mdc-layout-grid__inner"
+  >
+    <div
+      className="mdc-layout-grid__cell mdc-layout-grid__cell--span-6 mdc-layout-grid__cell--span-undefined-desktop mdc-layout-grid__cell--span-8-tablet mdc-layout-grid__cell--span-undefined-phone mdc-layout-grid__cell--order-undefined"
+    >
+      6 (8 tablet)
+    </div>
+    <div
+      className="mdc-layout-grid__cell mdc-layout-grid__cell--span-4 mdc-layout-grid__cell--span-undefined-desktop mdc-layout-grid__cell--span-6-tablet mdc-layout-grid__cell--span-undefined-phone mdc-layout-grid__cell--order-undefined"
+    >
+      4 (8 tablet)
+    </div>
+    <div
+      className="mdc-layout-grid__cell mdc-layout-grid__cell--span-2 mdc-layout-grid__cell--span-undefined-desktop mdc-layout-grid__cell--span-undefined-tablet mdc-layout-grid__cell--span-4-phone mdc-layout-grid__cell--order-undefined"
+    >
+      2 (4 phone)
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots LinearProgress Buffer 1`] = `
+<div
+  className="mdc-linear-progress"
+  role="progressbar"
+>
+  <div
+    className="mdc-linear-progress__buffering-dots"
+  />
+  <div
+    className="mdc-linear-progress__buffer"
+  />
+  <div
+    className="mdc-linear-progress__bar mdc-linear-progress__primary-bar"
+  >
+    <span
+      className="mdc-linear-progress__bar-inner"
+    />
+  </div>
+  <div
+    className="mdc-linear-progress__bar mdc-linear-progress__secondary-bar"
+  >
+    <span
+      className="mdc-linear-progress__bar-inner"
+    />
+  </div>
+</div>
+`;
+
+exports[`Storyshots LinearProgress BufferReversed 1`] = `
+<div
+  className="mdc-linear-progress mdc-linear-progress--reversed"
+  role="progressbar"
+>
+  <div
+    className="mdc-linear-progress__buffering-dots"
+  />
+  <div
+    className="mdc-linear-progress__buffer"
+  />
+  <div
+    className="mdc-linear-progress__bar mdc-linear-progress__primary-bar"
+  >
+    <span
+      className="mdc-linear-progress__bar-inner"
+    />
+  </div>
+  <div
+    className="mdc-linear-progress__bar mdc-linear-progress__secondary-bar"
+  >
+    <span
+      className="mdc-linear-progress__bar-inner"
+    />
+  </div>
+</div>
+`;
+
+exports[`Storyshots LinearProgress Determinate 1`] = `
+<div
+  className="mdc-linear-progress"
+  role="progressbar"
+>
+  <div
+    className="mdc-linear-progress__buffering-dots"
+  />
+  <div
+    className="mdc-linear-progress__buffer"
+  />
+  <div
+    className="mdc-linear-progress__bar mdc-linear-progress__primary-bar"
+  >
+    <span
+      className="mdc-linear-progress__bar-inner"
+    />
+  </div>
+  <div
+    className="mdc-linear-progress__bar mdc-linear-progress__secondary-bar"
+  >
+    <span
+      className="mdc-linear-progress__bar-inner"
+    />
+  </div>
+</div>
+`;
+
+exports[`Storyshots LinearProgress Indeterminate 1`] = `
+<div
+  className="mdc-linear-progress mdc-linear-progress--indeterminate"
+  role="progressbar"
+>
+  <div
+    className="mdc-linear-progress__buffering-dots"
+  />
+  <div
+    className="mdc-linear-progress__buffer"
+  />
+  <div
+    className="mdc-linear-progress__bar mdc-linear-progress__primary-bar"
+  >
+    <span
+      className="mdc-linear-progress__bar-inner"
+    />
+  </div>
+  <div
+    className="mdc-linear-progress__bar mdc-linear-progress__secondary-bar"
+  >
+    <span
+      className="mdc-linear-progress__bar-inner"
+    />
+  </div>
+</div>
+`;
+
+exports[`Storyshots LinearProgress IndeterminateReversed 1`] = `
+<div
+  className="mdc-linear-progress mdc-linear-progress--reversed mdc-linear-progress--indeterminate"
+  role="progressbar"
+>
+  <div
+    className="mdc-linear-progress__buffering-dots"
+  />
+  <div
+    className="mdc-linear-progress__buffer"
+  />
+  <div
+    className="mdc-linear-progress__bar mdc-linear-progress__primary-bar"
+  >
+    <span
+      className="mdc-linear-progress__bar-inner"
+    />
+  </div>
+  <div
+    className="mdc-linear-progress__bar mdc-linear-progress__secondary-bar"
+  >
+    <span
+      className="mdc-linear-progress__bar-inner"
+    />
+  </div>
+</div>
+`;
+
+exports[`Storyshots LinearProgress Reversed 1`] = `
+<div
+  className="mdc-linear-progress mdc-linear-progress--reversed"
+  role="progressbar"
+>
+  <div
+    className="mdc-linear-progress__buffering-dots"
+  />
+  <div
+    className="mdc-linear-progress__buffer"
+  />
+  <div
+    className="mdc-linear-progress__bar mdc-linear-progress__primary-bar"
+  >
+    <span
+      className="mdc-linear-progress__bar-inner"
+    />
+  </div>
+  <div
+    className="mdc-linear-progress__bar mdc-linear-progress__secondary-bar"
+  >
+    <span
+      className="mdc-linear-progress__bar-inner"
+    />
+  </div>
+</div>
+`;
+
+exports[`Storyshots List\\Divider FullWidth 1`] = `
+<ul
+  className="mdc-list"
+>
+  <li
+    className="mdc-list-item"
+  >
+    Single-line item - section 1
+  </li>
+  <li
+    className="mdc-list-item"
+  >
+    Single-line item - section 1
+  </li>
+  <li
+    className="mdc-list-item"
+  >
+    Single-line item - section 1
+  </li>
+  <li
+    className="mdc-list-divider"
+    role="separator"
+  />
+  <li
+    className="mdc-list-item"
+  >
+    Single-line item - section 2
+  </li>
+  <li
+    className="mdc-list-item"
+  >
+    Single-line item - section 2
+  </li>
+</ul>
+`;
+
+exports[`Storyshots List\\Divider Insets 1`] = `
+<ul
+  className="mdc-list mdc-list--avatar-list"
+>
+  <li
+    className="mdc-list-item"
+  >
+    <span
+      className="mdc-list-item__graphic list-item__demo-graphic"
+    />
+    Single-line item - section 1
+  </li>
+  <li
+    className="mdc-list-item"
+  >
+    <span
+      className="mdc-list-item__graphic list-item__demo-graphic"
+    />
+    Single-line item - section 1
+  </li>
+  <li
+    className="mdc-list-item"
+  >
+    <span
+      className="mdc-list-item__graphic list-item__demo-graphic"
+    />
+    Single-line item - section 1
+  </li>
+  <li
+    className="mdc-list-divider mdc-list-divider--inset"
+    role="separator"
+  />
+  <li
+    className="mdc-list-item"
+  >
+    <span
+      className="mdc-list-item__graphic list-item__demo-graphic"
+    />
+    Single-line item - section 2
+  </li>
+  <li
+    className="mdc-list-item"
+  >
+    <span
+      className="mdc-list-item__graphic list-item__demo-graphic"
+    />
+    Single-line item - section 2
+  </li>
+</ul>
+`;
+
+exports[`Storyshots List\\Group Basic 1`] = `
+<div
+  className="mdc-list-group"
+>
+  <h3
+    className="mdc-list-group__subheader"
+  >
+    List 1
+  </h3>
+  <ul
+    className="mdc-list"
+  >
+    <li
+      className="mdc-list-item"
+    >
+      Single-line item
+    </li>
+    <li
+      className="mdc-list-item"
+    >
+      Single-line item
+    </li>
+    <li
+      className="mdc-list-item"
+    >
+      Single-line item
+    </li>
+  </ul>
+  <hr
+    className="mdc-list-divider"
+    role="separator"
+  />
+  <h3
+    className="mdc-list-group__subheader"
+  >
+    List 2
+  </h3>
+  <ul
+    className="mdc-list"
+  >
+    <li
+      className="mdc-list-item"
+    >
+      Single-line item
+    </li>
+    <li
+      className="mdc-list-item"
+    >
+      Single-line item
+    </li>
+    <li
+      className="mdc-list-item"
+    >
+      Single-line item
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`Storyshots List\\Group TwoLineAvatarMetadataInset 1`] = `
+<div
+  className="mdc-list-group"
+>
+  <h3
+    className="mdc-list-group__subheader"
+  >
+    Folders
+  </h3>
+  <ul
+    className="mdc-list mdc-list--two-line mdc-list--avatar-list"
+  >
+    <li
+      className="mdc-list-item"
+    >
+      <span
+        className="mdc-list-item__graphic list-item__demo-graphic"
+      >
+        <i
+          className="material-icons"
+        >
+          folder
+        </i>
+      </span>
+      <span
+        className="mdc-list-item__text"
+      >
+        <span
+          className="mdc-list-item__primary-text"
+        >
+          Photo
+        </span>
+        <span
+          className="mdc-list-item__secondary-text"
+        >
+          Jan 9, 2014
+        </span>
+      </span>
+      <span
+        className="mdc-list-item__meta"
+      >
+        <i
+          className="material-icons"
+        >
+          info
+        </i>
+      </span>
+    </li>
+    <li
+      className="mdc-list-item"
+    >
+      <span
+        className="mdc-list-item__graphic list-item__demo-graphic"
+      >
+        <i
+          className="material-icons"
+        >
+          folder
+        </i>
+      </span>
+      <span
+        className="mdc-list-item__text"
+      >
+        <span
+          className="mdc-list-item__primary-text"
+        >
+          Recipes
+        </span>
+        <span
+          className="mdc-list-item__secondary-text"
+        >
+          Jan 17, 2014
+        </span>
+      </span>
+      <span
+        className="mdc-list-item__meta"
+      >
+        <i
+          className="material-icons"
+        >
+          info
+        </i>
+      </span>
+    </li>
+    <li
+      className="mdc-list-item"
+    >
+      <span
+        className="mdc-list-item__graphic list-item__demo-graphic"
+      >
+        <i
+          className="material-icons"
+        >
+          folder
+        </i>
+      </span>
+      <span
+        className="mdc-list-item__text"
+      >
+        <span
+          className="mdc-list-item__primary-text"
+        >
+          Work
+        </span>
+        <span
+          className="mdc-list-item__secondary-text"
+        >
+          Jan 28, 2014
+        </span>
+      </span>
+      <span
+        className="mdc-list-item__meta"
+      >
+        <i
+          className="material-icons"
+        >
+          info
+        </i>
+      </span>
+    </li>
+  </ul>
+  <hr
+    className="mdc-list-divider mdc-list-divider--inset"
+    role="separator"
+  />
+  <h3
+    className="mdc-list-group__subheader"
+  >
+    Files
+  </h3>
+  <ul
+    className="mdc-list mdc-list--two-line mdc-list--avatar-list"
+  >
+    <li
+      className="mdc-list-item"
+    >
+      <span
+        className="mdc-list-item__graphic list-item__demo-graphic"
+      >
+        <i
+          className="material-icons"
+        >
+          insert_drive_file
+        </i>
+      </span>
+      <span
+        className="mdc-list-item__text"
+      >
+        <span
+          className="mdc-list-item__primary-text"
+        >
+          Vacation Itinerary
+        </span>
+        <span
+          className="mdc-list-item__secondary-text"
+        >
+          Jan 10, 2014
+        </span>
+      </span>
+      <span
+        className="mdc-list-item__meta"
+      >
+        <i
+          className="material-icons"
+        >
+          info
+        </i>
+      </span>
+    </li>
+    <li
+      className="mdc-list-item"
+    >
+      <span
+        className="mdc-list-item__graphic list-item__demo-graphic"
+      >
+        <i
+          className="material-icons"
+        >
+          insert_drive_file
+        </i>
+      </span>
+      <span
+        className="mdc-list-item__text"
+      >
+        <span
+          className="mdc-list-item__primary-text"
+        >
+          Kitchen Remodel
+        </span>
+        <span
+          className="mdc-list-item__secondary-text"
+        >
+          Jan 20, 2014
+        </span>
+      </span>
+      <span
+        className="mdc-list-item__meta"
+      >
+        <i
+          className="material-icons"
+        >
+          info
+        </i>
+      </span>
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`Storyshots List\\SingleLine Avatar 1`] = `
+<ul
+  className="mdc-list mdc-list--avatar-list"
+>
+  <li
+    className="mdc-list-item"
+  >
+    <span
+      className="mdc-list-item__graphic list-item__demo-graphic"
+    />
+    Single-line item
+  </li>
+  <li
+    className="mdc-list-item"
+  >
+    <span
+      className="mdc-list-item__graphic list-item__demo-graphic"
+    />
+    Single-line item
+  </li>
+  <li
+    className="mdc-list-item"
+  >
+    <span
+      className="mdc-list-item__graphic list-item__demo-graphic"
+    />
+    Single-line item
+  </li>
+</ul>
+`;
+
+exports[`Storyshots List\\SingleLine AvatarDense 1`] = `
+<ul
+  className="mdc-list mdc-list--dense mdc-list--avatar-list"
+>
+  <li
+    className="mdc-list-item"
+  >
+    <span
+      className="mdc-list-item__graphic list-item__demo-graphic"
+    />
+    Single-line item
+  </li>
+  <li
+    className="mdc-list-item"
+  >
+    <span
+      className="mdc-list-item__graphic list-item__demo-graphic"
+    />
+    Single-line item
+  </li>
+  <li
+    className="mdc-list-item"
+  >
+    <span
+      className="mdc-list-item__graphic list-item__demo-graphic"
+    />
+    Single-line item
+  </li>
+</ul>
+`;
+
+exports[`Storyshots List\\SingleLine AvatarMetadata 1`] = `
+<ul
+  className="mdc-list mdc-list--avatar-list"
+>
+  <li
+    className="mdc-list-item"
+  >
+    <span
+      className="mdc-list-item__graphic list-item__demo-graphic"
+    />
+    Single-line item
+    <span
+      className="mdc-list-item__meta"
+    >
+      $10.00
+    </span>
+  </li>
+  <li
+    className="mdc-list-item"
+  >
+    <span
+      className="mdc-list-item__graphic list-item__demo-graphic"
+    />
+    Single-line item
+    <span
+      className="mdc-list-item__meta"
+    >
+      $20.00
+    </span>
+  </li>
+  <li
+    className="mdc-list-item"
+  >
+    <span
+      className="mdc-list-item__graphic list-item__demo-graphic"
+    />
+    Single-line item
+    <span
+      className="mdc-list-item__meta"
+    >
+      $30.00
+    </span>
+  </li>
+</ul>
+`;
+
+exports[`Storyshots List\\SingleLine AvatarMetadataDense 1`] = `
+<ul
+  className="mdc-list mdc-list--dense mdc-list--avatar-list"
+>
+  <li
+    className="mdc-list-item"
+  >
+    <span
+      className="mdc-list-item__graphic list-item__demo-graphic"
+    />
+    Single-line item
+    <span
+      className="mdc-list-item__meta"
+    >
+      $10.00
+    </span>
+  </li>
+  <li
+    className="mdc-list-item"
+  >
+    <span
+      className="mdc-list-item__graphic list-item__demo-graphic"
+    />
+    Single-line item
+    <span
+      className="mdc-list-item__meta"
+    >
+      $20.00
+    </span>
+  </li>
+  <li
+    className="mdc-list-item"
+  >
+    <span
+      className="mdc-list-item__graphic list-item__demo-graphic"
+    />
+    Single-line item
+    <span
+      className="mdc-list-item__meta"
+    >
+      $30.00
+    </span>
+  </li>
+</ul>
+`;
+
+exports[`Storyshots List\\SingleLine Graphic 1`] = `
+<ul
+  className="mdc-list"
+>
+  <li
+    className="mdc-list-item"
+  >
+    <span
+      className="mdc-list-item__graphic list-item__demo-graphic"
+    />
+    Single-line item
+  </li>
+  <li
+    className="mdc-list-item"
+  >
+    <span
+      className="mdc-list-item__graphic list-item__demo-graphic"
+    />
+    Single-line item
+  </li>
+  <li
+    className="mdc-list-item"
+  >
+    <span
+      className="mdc-list-item__graphic list-item__demo-graphic"
+    />
+    Single-line item
+  </li>
+</ul>
+`;
+
+exports[`Storyshots List\\SingleLine GraphicDense 1`] = `
+<ul
+  className="mdc-list mdc-list--dense"
+>
+  <li
+    className="mdc-list-item"
+  >
+    <span
+      className="mdc-list-item__graphic list-item__demo-graphic"
+    />
+    Single-line item
+  </li>
+  <li
+    className="mdc-list-item"
+  >
+    <span
+      className="mdc-list-item__graphic list-item__demo-graphic"
+    />
+    Single-line item
+  </li>
+  <li
+    className="mdc-list-item"
+  >
+    <span
+      className="mdc-list-item__graphic list-item__demo-graphic"
+    />
+    Single-line item
+  </li>
+</ul>
+`;
+
+exports[`Storyshots List\\SingleLine IconWithText 1`] = `
+<ul
+  className="mdc-list"
+>
+  <li
+    className="mdc-list-item"
+  >
+    <span
+      className="mdc-list-item__graphic"
+    >
+      <i
+        className="material-icons"
+      >
+        network_wifi
+      </i>
+    </span>
+    Wi-Fi
+  </li>
+  <li
+    className="mdc-list-item"
+  >
+    <span
+      className="mdc-list-item__graphic"
+    >
+      <i
+        className="material-icons"
+      >
+        bluetooth
+      </i>
+    </span>
+    Bluetooth
+  </li>
+  <li
+    className="mdc-list-item"
+  >
+    <span
+      className="mdc-list-item__graphic"
+    >
+      <i
+        className="material-icons"
+      >
+        data_usage
+      </i>
+    </span>
+    Data Usage
+  </li>
+</ul>
+`;
+
+exports[`Storyshots List\\SingleLine Metadata 1`] = `
+<ul
+  className="mdc-list"
+>
+  <li
+    className="mdc-list-item"
+  >
+    Single-line item
+    <span
+      className="mdc-list-item__meta"
+    >
+      $10.00
+    </span>
+  </li>
+  <li
+    className="mdc-list-item"
+  >
+    Single-line item
+    <span
+      className="mdc-list-item__meta"
+    >
+      $20.00
+    </span>
+  </li>
+  <li
+    className="mdc-list-item"
+  >
+    Single-line item
+    <span
+      className="mdc-list-item__meta"
+    >
+      $30.00
+    </span>
+  </li>
+</ul>
+`;
+
+exports[`Storyshots List\\SingleLine MetadataDense 1`] = `
+<ul
+  className="mdc-list mdc-list--dense"
+>
+  <li
+    className="mdc-list-item"
+  >
+    Single-line item
+    <span
+      className="mdc-list-item__meta"
+    >
+      $10.00
+    </span>
+  </li>
+  <li
+    className="mdc-list-item"
+  >
+    Single-line item
+    <span
+      className="mdc-list-item__meta"
+    >
+      $20.00
+    </span>
+  </li>
+  <li
+    className="mdc-list-item"
+  >
+    Single-line item
+    <span
+      className="mdc-list-item__meta"
+    >
+      $30.00
+    </span>
+  </li>
+</ul>
+`;
+
+exports[`Storyshots List\\SingleLine TextOnly 1`] = `
+<ul
+  className="mdc-list"
+>
+  <li
+    className="mdc-list-item"
+  >
+    Single-line item
+  </li>
+  <li
+    className="mdc-list-item"
+  >
+    Single-line item
+  </li>
+  <li
+    className="mdc-list-item"
+  >
+    Single-line item
+  </li>
+</ul>
+`;
+
+exports[`Storyshots List\\SingleLine TextOnlyDense 1`] = `
+<ul
+  className="mdc-list mdc-list--dense"
+>
+  <li
+    className="mdc-list-item"
+  >
+    Single-line item
+  </li>
+  <li
+    className="mdc-list-item"
+  >
+    Single-line item
+  </li>
+  <li
+    className="mdc-list-item"
+  >
+    Single-line item
+  </li>
+</ul>
+`;
+
+exports[`Storyshots List\\TwoLine Avatar 1`] = `
+<ul
+  className="mdc-list mdc-list--two-line mdc-list--avatar-list"
+>
+  <li
+    className="mdc-list-item"
+  >
+    <span
+      className="mdc-list-item__graphic list-item__demo-graphic"
+    />
+    <span
+      className="mdc-list-item__text"
+    >
+      <span
+        className="mdc-list-item__primary-text"
+      >
+        Two-line item
+      </span>
+      <span
+        className="mdc-list-item__secondary-text"
+      >
+        Secondary text
+      </span>
+    </span>
+  </li>
+  <li
+    className="mdc-list-item"
+  >
+    <span
+      className="mdc-list-item__graphic list-item__demo-graphic"
+    />
+    <span
+      className="mdc-list-item__text"
+    >
+      <span
+        className="mdc-list-item__primary-text"
+      >
+        Two-line item
+      </span>
+      <span
+        className="mdc-list-item__secondary-text"
+      >
+        Secondary text
+      </span>
+    </span>
+  </li>
+  <li
+    className="mdc-list-item"
+  >
+    <span
+      className="mdc-list-item__graphic list-item__demo-graphic"
+    />
+    <span
+      className="mdc-list-item__text"
+    >
+      <span
+        className="mdc-list-item__primary-text"
+      >
+        Two-line item
+      </span>
+      <span
+        className="mdc-list-item__secondary-text"
+      >
+        Secondary text
+      </span>
+    </span>
+  </li>
+</ul>
+`;
+
+exports[`Storyshots List\\TwoLine AvatarDense 1`] = `
+<ul
+  className="mdc-list mdc-list--dense mdc-list--two-line mdc-list--avatar-list"
+>
+  <li
+    className="mdc-list-item"
+  >
+    <span
+      className="mdc-list-item__graphic list-item__demo-graphic"
+    />
+    <span
+      className="mdc-list-item__text"
+    >
+      <span
+        className="mdc-list-item__primary-text"
+      >
+        Two-line item
+      </span>
+      <span
+        className="mdc-list-item__secondary-text"
+      >
+        Secondary text
+      </span>
+    </span>
+  </li>
+  <li
+    className="mdc-list-item"
+  >
+    <span
+      className="mdc-list-item__graphic list-item__demo-graphic"
+    />
+    <span
+      className="mdc-list-item__text"
+    >
+      <span
+        className="mdc-list-item__primary-text"
+      >
+        Two-line item
+      </span>
+      <span
+        className="mdc-list-item__secondary-text"
+      >
+        Secondary text
+      </span>
+    </span>
+  </li>
+  <li
+    className="mdc-list-item"
+  >
+    <span
+      className="mdc-list-item__graphic list-item__demo-graphic"
+    />
+    <span
+      className="mdc-list-item__text"
+    >
+      <span
+        className="mdc-list-item__primary-text"
+      >
+        Two-line item
+      </span>
+      <span
+        className="mdc-list-item__secondary-text"
+      >
+        Secondary text
+      </span>
+    </span>
+  </li>
+</ul>
+`;
+
+exports[`Storyshots List\\TwoLine AvatarMetadata 1`] = `
+<ul
+  className="mdc-list mdc-list--two-line mdc-list--avatar-list"
+>
+  <li
+    className="mdc-list-item"
+  >
+    <span
+      className="mdc-list-item__graphic list-item__demo-graphic"
+    />
+    <span
+      className="mdc-list-item__text"
+    >
+      <span
+        className="mdc-list-item__primary-text"
+      >
+        Two-line item
+      </span>
+      <span
+        className="mdc-list-item__secondary-text"
+      >
+        Secondary text
+      </span>
+    </span>
+    <span
+      className="mdc-list-item__meta"
+    >
+      $10.00
+    </span>
+  </li>
+  <li
+    className="mdc-list-item"
+  >
+    <span
+      className="mdc-list-item__graphic list-item__demo-graphic"
+    />
+    <span
+      className="mdc-list-item__text"
+    >
+      <span
+        className="mdc-list-item__primary-text"
+      >
+        Two-line item
+      </span>
+      <span
+        className="mdc-list-item__secondary-text"
+      >
+        Secondary text
+      </span>
+    </span>
+    <span
+      className="mdc-list-item__meta"
+    >
+      $20.00
+    </span>
+  </li>
+  <li
+    className="mdc-list-item"
+  >
+    <span
+      className="mdc-list-item__graphic list-item__demo-graphic"
+    />
+    <span
+      className="mdc-list-item__text"
+    >
+      <span
+        className="mdc-list-item__primary-text"
+      >
+        Two-line item
+      </span>
+      <span
+        className="mdc-list-item__secondary-text"
+      >
+        Secondary text
+      </span>
+    </span>
+    <span
+      className="mdc-list-item__meta"
+    >
+      $30.00
+    </span>
+  </li>
+</ul>
+`;
+
+exports[`Storyshots List\\TwoLine AvatarMetadataDense 1`] = `
+<ul
+  className="mdc-list mdc-list--dense mdc-list--two-line mdc-list--avatar-list"
+>
+  <li
+    className="mdc-list-item"
+  >
+    <span
+      className="mdc-list-item__graphic list-item__demo-graphic"
+    />
+    <span
+      className="mdc-list-item__text"
+    >
+      <span
+        className="mdc-list-item__primary-text"
+      >
+        Two-line item
+      </span>
+      <span
+        className="mdc-list-item__secondary-text"
+      >
+        Secondary text
+      </span>
+    </span>
+    <span
+      className="mdc-list-item__meta"
+    >
+      $10.00
+    </span>
+  </li>
+  <li
+    className="mdc-list-item"
+  >
+    <span
+      className="mdc-list-item__graphic list-item__demo-graphic"
+    />
+    <span
+      className="mdc-list-item__text"
+    >
+      <span
+        className="mdc-list-item__primary-text"
+      >
+        Two-line item
+      </span>
+      <span
+        className="mdc-list-item__secondary-text"
+      >
+        Secondary text
+      </span>
+    </span>
+    <span
+      className="mdc-list-item__meta"
+    >
+      $20.00
+    </span>
+  </li>
+  <li
+    className="mdc-list-item"
+  >
+    <span
+      className="mdc-list-item__graphic list-item__demo-graphic"
+    />
+    <span
+      className="mdc-list-item__text"
+    >
+      <span
+        className="mdc-list-item__primary-text"
+      >
+        Two-line item
+      </span>
+      <span
+        className="mdc-list-item__secondary-text"
+      >
+        Secondary text
+      </span>
+    </span>
+    <span
+      className="mdc-list-item__meta"
+    >
+      $30.00
+    </span>
+  </li>
+</ul>
+`;
+
+exports[`Storyshots List\\TwoLine AvatarMetadataTextIcon 1`] = `
+<ul
+  className="mdc-list mdc-list--two-line mdc-list--avatar-list"
+>
+  <li
+    className="mdc-list-item"
+  >
+    <span
+      className="mdc-list-item__graphic list-item__demo-graphic"
+    >
+      <i
+        className="material-icons"
+      >
+        folder
+      </i>
+    </span>
+    <span
+      className="mdc-list-item__text"
+    >
+      <span
+        className="mdc-list-item__primary-text"
+      >
+        Photo
+      </span>
+      <span
+        className="mdc-list-item__secondary-text"
+      >
+        Jan 9, 2014
+      </span>
+    </span>
+    <span
+      className="mdc-list-item__meta"
+    >
+      <i
+        className="material-icons"
+      >
+        info
+      </i>
+    </span>
+  </li>
+  <li
+    className="mdc-list-item"
+  >
+    <span
+      className="mdc-list-item__graphic list-item__demo-graphic"
+    >
+      <i
+        className="material-icons"
+      >
+        folder
+      </i>
+    </span>
+    <span
+      className="mdc-list-item__text"
+    >
+      <span
+        className="mdc-list-item__primary-text"
+      >
+        Recipes
+      </span>
+      <span
+        className="mdc-list-item__secondary-text"
+      >
+        Jan 17, 2014
+      </span>
+    </span>
+    <span
+      className="mdc-list-item__meta"
+    >
+      <i
+        className="material-icons"
+      >
+        info
+      </i>
+    </span>
+  </li>
+  <li
+    className="mdc-list-item"
+  >
+    <span
+      className="mdc-list-item__graphic list-item__demo-graphic"
+    >
+      <i
+        className="material-icons"
+      >
+        folder
+      </i>
+    </span>
+    <span
+      className="mdc-list-item__text"
+    >
+      <span
+        className="mdc-list-item__primary-text"
+      >
+        Work
+      </span>
+      <span
+        className="mdc-list-item__secondary-text"
+      >
+        Jan 28, 2014
+      </span>
+    </span>
+    <span
+      className="mdc-list-item__meta"
+    >
+      <i
+        className="material-icons"
+      >
+        info
+      </i>
+    </span>
+  </li>
+</ul>
+`;
+
+exports[`Storyshots List\\TwoLine Graphic 1`] = `
+<ul
+  className="mdc-list mdc-list--two-line"
+>
+  <li
+    className="mdc-list-item"
+  >
+    <span
+      className="mdc-list-item__graphic list-item__demo-graphic"
+    />
+    <span
+      className="mdc-list-item__text"
+    >
+      <span
+        className="mdc-list-item__primary-text"
+      >
+        Two-line item
+      </span>
+      <span
+        className="mdc-list-item__secondary-text"
+      >
+        Secondary text
+      </span>
+    </span>
+  </li>
+  <li
+    className="mdc-list-item"
+  >
+    <span
+      className="mdc-list-item__graphic list-item__demo-graphic"
+    />
+    <span
+      className="mdc-list-item__text"
+    >
+      <span
+        className="mdc-list-item__primary-text"
+      >
+        Two-line item
+      </span>
+      <span
+        className="mdc-list-item__secondary-text"
+      >
+        Secondary text
+      </span>
+    </span>
+  </li>
+  <li
+    className="mdc-list-item"
+  >
+    <span
+      className="mdc-list-item__graphic list-item__demo-graphic"
+    />
+    <span
+      className="mdc-list-item__text"
+    >
+      <span
+        className="mdc-list-item__primary-text"
+      >
+        Two-line item
+      </span>
+      <span
+        className="mdc-list-item__secondary-text"
+      >
+        Secondary text
+      </span>
+    </span>
+  </li>
+</ul>
+`;
+
+exports[`Storyshots List\\TwoLine GraphicDense 1`] = `
+<ul
+  className="mdc-list mdc-list--dense mdc-list--two-line"
+>
+  <li
+    className="mdc-list-item"
+  >
+    <span
+      className="mdc-list-item__graphic list-item__demo-graphic"
+    />
+    <span
+      className="mdc-list-item__text"
+    >
+      <span
+        className="mdc-list-item__primary-text"
+      >
+        Two-line item
+      </span>
+      <span
+        className="mdc-list-item__secondary-text"
+      >
+        Secondary text
+      </span>
+    </span>
+  </li>
+  <li
+    className="mdc-list-item"
+  >
+    <span
+      className="mdc-list-item__graphic list-item__demo-graphic"
+    />
+    <span
+      className="mdc-list-item__text"
+    >
+      <span
+        className="mdc-list-item__primary-text"
+      >
+        Two-line item
+      </span>
+      <span
+        className="mdc-list-item__secondary-text"
+      >
+        Secondary text
+      </span>
+    </span>
+  </li>
+  <li
+    className="mdc-list-item"
+  >
+    <span
+      className="mdc-list-item__graphic list-item__demo-graphic"
+    />
+    <span
+      className="mdc-list-item__text"
+    >
+      <span
+        className="mdc-list-item__primary-text"
+      >
+        Two-line item
+      </span>
+      <span
+        className="mdc-list-item__secondary-text"
+      >
+        Secondary text
+      </span>
+    </span>
+  </li>
+</ul>
+`;
+
+exports[`Storyshots List\\TwoLine Metadata 1`] = `
+<ul
+  className="mdc-list mdc-list--two-line"
+>
+  <li
+    className="mdc-list-item"
+  >
+    <span
+      className="mdc-list-item__text"
+    >
+      <span
+        className="mdc-list-item__primary-text"
+      >
+        Two-line item
+      </span>
+      <span
+        className="mdc-list-item__secondary-text"
+      >
+        Secondary text
+      </span>
+    </span>
+    <span
+      className="mdc-list-item__meta"
+    >
+      $10.00
+    </span>
+  </li>
+  <li
+    className="mdc-list-item"
+  >
+    <span
+      className="mdc-list-item__text"
+    >
+      <span
+        className="mdc-list-item__primary-text"
+      >
+        Two-line item
+      </span>
+      <span
+        className="mdc-list-item__secondary-text"
+      >
+        Secondary text
+      </span>
+    </span>
+    <span
+      className="mdc-list-item__meta"
+    >
+      $20.00
+    </span>
+  </li>
+  <li
+    className="mdc-list-item"
+  >
+    <span
+      className="mdc-list-item__text"
+    >
+      <span
+        className="mdc-list-item__primary-text"
+      >
+        Two-line item
+      </span>
+      <span
+        className="mdc-list-item__secondary-text"
+      >
+        Secondary text
+      </span>
+    </span>
+    <span
+      className="mdc-list-item__meta"
+    >
+      $30.00
+    </span>
+  </li>
+</ul>
+`;
+
+exports[`Storyshots List\\TwoLine MetadataDense 1`] = `
+<ul
+  className="mdc-list mdc-list--dense mdc-list--two-line"
+>
+  <li
+    className="mdc-list-item"
+  >
+    <span
+      className="mdc-list-item__text"
+    >
+      <span
+        className="mdc-list-item__primary-text"
+      >
+        Two-line item
+      </span>
+      <span
+        className="mdc-list-item__secondary-text"
+      >
+        Secondary text
+      </span>
+    </span>
+    <span
+      className="mdc-list-item__meta"
+    >
+      $10.00
+    </span>
+  </li>
+  <li
+    className="mdc-list-item"
+  >
+    <span
+      className="mdc-list-item__text"
+    >
+      <span
+        className="mdc-list-item__primary-text"
+      >
+        Two-line item
+      </span>
+      <span
+        className="mdc-list-item__secondary-text"
+      >
+        Secondary text
+      </span>
+    </span>
+    <span
+      className="mdc-list-item__meta"
+    >
+      $20.00
+    </span>
+  </li>
+  <li
+    className="mdc-list-item"
+  >
+    <span
+      className="mdc-list-item__text"
+    >
+      <span
+        className="mdc-list-item__primary-text"
+      >
+        Two-line item
+      </span>
+      <span
+        className="mdc-list-item__secondary-text"
+      >
+        Secondary text
+      </span>
+    </span>
+    <span
+      className="mdc-list-item__meta"
+    >
+      $30.00
+    </span>
+  </li>
+</ul>
+`;
+
+exports[`Storyshots List\\TwoLine TextOnly 1`] = `
+<ul
+  className="mdc-list mdc-list--two-line"
+>
+  <li
+    className="mdc-list-item"
+  >
+    <span
+      className="mdc-list-item__text"
+    >
+      <span
+        className="mdc-list-item__primary-text"
+      >
+        Two-line item
+      </span>
+      <span
+        className="mdc-list-item__secondary-text"
+      >
+        Secondary text
+      </span>
+    </span>
+  </li>
+  <li
+    className="mdc-list-item"
+  >
+    <span
+      className="mdc-list-item__text"
+    >
+      <span
+        className="mdc-list-item__primary-text"
+      >
+        Two-line item
+      </span>
+      <span
+        className="mdc-list-item__secondary-text"
+      >
+        Secondary text
+      </span>
+    </span>
+  </li>
+  <li
+    className="mdc-list-item"
+  >
+    <span
+      className="mdc-list-item__text"
+    >
+      <span
+        className="mdc-list-item__primary-text"
+      >
+        Two-line item
+      </span>
+      <span
+        className="mdc-list-item__secondary-text"
+      >
+        Secondary text
+      </span>
+    </span>
+  </li>
+</ul>
+`;
+
+exports[`Storyshots List\\TwoLine TextOnlyDense 1`] = `
+<ul
+  className="mdc-list mdc-list--dense mdc-list--two-line"
+>
+  <li
+    className="mdc-list-item"
+  >
+    <span
+      className="mdc-list-item__text"
+    >
+      <span
+        className="mdc-list-item__primary-text"
+      >
+        Two-line item
+      </span>
+      <span
+        className="mdc-list-item__secondary-text"
+      >
+        Secondary text
+      </span>
+    </span>
+  </li>
+  <li
+    className="mdc-list-item"
+  >
+    <span
+      className="mdc-list-item__text"
+    >
+      <span
+        className="mdc-list-item__primary-text"
+      >
+        Two-line item
+      </span>
+      <span
+        className="mdc-list-item__secondary-text"
+      >
+        Secondary text
+      </span>
+    </span>
+  </li>
+  <li
+    className="mdc-list-item"
+  >
+    <span
+      className="mdc-list-item__text"
+    >
+      <span
+        className="mdc-list-item__primary-text"
+      >
+        Two-line item
+      </span>
+      <span
+        className="mdc-list-item__secondary-text"
+      >
+        Secondary text
+      </span>
+    </span>
+  </li>
+</ul>
+`;
+
+exports[`Storyshots Menu Basic 1`] = `
+<div
+  className="mdc-menu-surface--anchor"
+>
+  <button
+    className="mdc-button"
+    onClick={[Function]}
+  >
+    Menu
+  </button>
+  <div
+    className="mdc-menu-surface mdc-menu"
+    tabIndex={-1}
+  >
+    <ul
+      aria-hidden="true"
+      aria-orientation="vertical"
+      className="mdc-list"
+      role="menu"
+    >
+      <li
+        className="mdc-list-item"
+        role="menuitem"
+      >
+        Back
+      </li>
+      <li
+        className="mdc-list-item"
+        role="menuitem"
+      >
+        Forward
+      </li>
+      <li
+        className="mdc-list-item"
+        role="menuitem"
+      >
+        Reload
+      </li>
+      <li
+        className="mdc-list-divider"
+        role="separator"
+      />
+      <li
+        className="mdc-list-item"
+        role="menuitem"
+      >
+        Help & Feedback
+      </li>
+      <li
+        className="mdc-list-item"
+        role="menuitem"
+      >
+        Settings
+      </li>
+    </ul>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Menu Surface 1`] = `
+<div
+  className="mdc-menu-surface--anchor"
+>
+  <button
+    className="mdc-button"
+    onClick={[Function]}
+  >
+    Menu
+  </button>
+  <div
+    className="mdc-menu-surface"
+  >
+    <ul
+      className="mdc-list"
+    >
+      <li
+        className="mdc-list-item"
+      >
+        Back
+      </li>
+      <li
+        className="mdc-list-item"
+      >
+        Forward
+      </li>
+      <li
+        className="mdc-list-item"
+      >
+        Reload
+      </li>
+      <li
+        className="mdc-list-divider"
+        role="separator"
+      />
+      <li
+        className="mdc-list-item"
+      >
+        Help & Feedback
+      </li>
+      <li
+        className="mdc-list-item"
+      >
+        Settings
+      </li>
+    </ul>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Radio Default 1`] = `
+<div>
+  <div
+    className="mdc-form-field"
+  >
+    <div
+      className="mdc-radio"
+    >
+      <input
+        className="mdc-radio__native-control"
+        id="radio-1"
+        onChange={[Function]}
+        type="radio"
+      />
+      <div
+        className="mdc-radio__background"
+      >
+        <div
+          className="mdc-radio__outer-circle"
+        />
+        <div
+          className="mdc-radio__inner-circle"
+        />
+      </div>
+    </div>
+    <label
+      htmlFor="radio-1"
+    >
+      Default Radio 1
+    </label>
+  </div>
+  <div
+    className="mdc-form-field"
+  >
+    <div
+      className="mdc-radio"
+    >
+      <input
+        className="mdc-radio__native-control"
+        id="radio-2"
+        onChange={[Function]}
+        type="radio"
+      />
+      <div
+        className="mdc-radio__background"
+      >
+        <div
+          className="mdc-radio__outer-circle"
+        />
+        <div
+          className="mdc-radio__inner-circle"
+        />
+      </div>
+    </div>
+    <label
+      htmlFor="radio-2"
+    >
+      Default Radio 2
+    </label>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Radio Disabled 1`] = `
+<div>
+  <div
+    className="mdc-form-field"
+  >
+    <div
+      className="mdc-radio mdc-radio--disabled"
+    >
+      <input
+        className="mdc-radio__native-control"
+        disabled={true}
+        id="radio-1"
+        type="radio"
+      />
+      <div
+        className="mdc-radio__background"
+      >
+        <div
+          className="mdc-radio__outer-circle"
+        />
+        <div
+          className="mdc-radio__inner-circle"
+        />
+      </div>
+    </div>
+    <label
+      htmlFor="radio-1"
+    >
+      Disabled Radio 1
+    </label>
+  </div>
+  <div
+    className="mdc-form-field"
+  >
+    <div
+      className="mdc-radio mdc-radio--disabled"
+    >
+      <input
+        className="mdc-radio__native-control"
+        disabled={true}
+        id="radio-2"
+        type="radio"
+      />
+      <div
+        className="mdc-radio__background"
+      >
+        <div
+          className="mdc-radio__outer-circle"
+        />
+        <div
+          className="mdc-radio__inner-circle"
+        />
+      </div>
+    </div>
+    <label
+      htmlFor="radio-2"
+    >
+      Disabled Radio 2
+    </label>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Select Basic 1`] = `
+<div
+  className="mdc-select"
+  label="Food Group"
+>
+  <i
+    className="mdc-select__dropdown-icon"
+  />
+  <select
+    className="mdc-select__native-control"
+  >
+    <option
+      disabled={false}
+      selected={false}
+      value="Fruit Roll Ups"
+    >
+      Fruit Roll Ups
+    </option>
+    <option
+      disabled={false}
+      selected={false}
+      value="Candy (cotton)"
+    >
+      Candy (cotton)
+    </option>
+    <option
+      disabled={true}
+      selected={false}
+      value="Vegetables"
+    >
+      Vegetables
+    </option>
+    <option
+      disabled={false}
+      selected={false}
+      value="Noodles"
+    >
+      Noodles
+    </option>
+  </select>
+  <label
+    className="mdc-floating-label"
+  >
+    Food Group
+  </label>
+  <div
+    className="mdc-line-ripple"
+  />
+</div>
+`;
+
+exports[`Storyshots Select Enhanced 1`] = `
+<div
+  className="mdc-select"
+  label="Food Group"
+>
+  <i
+    className="mdc-select__dropdown-icon"
+  />
+  <div
+    className="mdc-select__selected-text"
+  />
+  <div
+    className="mdc-menu-surface mdc-menu mdc-select__menu"
+  >
+    <ul
+      className="mdc-list"
+    >
+      <li
+        className="mdc-list-item"
+        data-value="Fruit Roll Ups"
+        disabled={false}
+        role="option"
+      >
+        Fruit Roll Ups
+      </li>
+      <li
+        className="mdc-list-item"
+        data-value="Candy (cotton)"
+        disabled={false}
+        role="option"
+      >
+        Candy (cotton)
+      </li>
+      <li
+        className="mdc-list-item"
+        data-value="Vegetables"
+        disabled={true}
+        role="option"
+      >
+        Vegetables
+      </li>
+      <li
+        className="mdc-list-item"
+        data-value="Noodles"
+        disabled={false}
+        role="option"
+      >
+        Noodles
+      </li>
+    </ul>
+  </div>
+  <label
+    className="mdc-floating-label"
+  >
+    Food Group
+  </label>
+  <div
+    className="mdc-line-ripple"
+  />
+</div>
+`;
+
+exports[`Storyshots Select Outlined 1`] = `
+<div
+  className="mdc-select mdc-select--outlined"
+  label="Food Group"
+>
+  <i
+    className="mdc-select__dropdown-icon"
+  />
+  <select
+    className="mdc-select__native-control"
+  >
+    <option
+      disabled={false}
+      selected={false}
+      value="Fruit Roll Ups"
+    >
+      Fruit Roll Ups
+    </option>
+    <option
+      disabled={false}
+      selected={false}
+      value="Candy (cotton)"
+    >
+      Candy (cotton)
+    </option>
+    <option
+      disabled={true}
+      selected={false}
+      value="Vegetables"
+    >
+      Vegetables
+    </option>
+    <option
+      disabled={false}
+      selected={false}
+      value="Noodles"
+    >
+      Noodles
+    </option>
+  </select>
+  <div
+    className="mdc-notched-outline"
+  >
+    <div
+      className="mdc-notched-outline__leading"
+    />
+    <div
+      className="mdc-notched-outline__notch"
+    >
+      <label
+        className="mdc-floating-label"
+      >
+        Food Group
+      </label>
+    </div>
+    <div
+      className="mdc-notched-outline__trailing"
+    />
+  </div>
+</div>
+`;
+
+exports[`Storyshots Snackbar Basic 1`] = `
+Array [
+  <button
+    className="mdc-button mdc-button--raised"
+    onClick={[Function]}
+  >
+    Open Snackbar
+  </button>,
+  <div
+    className="mdc-snackbar"
+  >
+    <div
+      className="mdc-snackbar__surface"
+    >
+      <div
+        className="mdc-snackbar__label"
+      >
+        Message deleted
+      </div>
+      <div
+        className="mdc-snackbar__actions"
+      >
+        <button
+          className="mdc-button mdc-snackbar__action"
+        >
+          Undo
+        </button>
+      </div>
+    </div>
+  </div>,
+]
+`;
+
+exports[`Storyshots Switch Basic 1`] = `
+<div
+  className="mdc-form-field"
+>
+  <div
+    className="mdc-switch mdc-switch--checked"
+  >
+    <div
+      className="mdc-switch__track"
+    />
+    <div
+      className="mdc-switch__thumb-underlay"
+    >
+      <div
+        className="mdc-switch__thumb"
+      >
+        <input
+          className="mdc-switch__native-control"
+          id="basic-switch"
+          onChange={[Function]}
+          role="switch"
+          type="checkbox"
+        />
+      </div>
+    </div>
+  </div>
+  <label
+    htmlFor="basic-switch"
+  >
+    On/Off
+  </label>
+</div>
+`;
+
+exports[`Storyshots Switch Disabled 1`] = `
+<div
+  className="mdc-form-field"
+>
+  <div
+    className="mdc-switch mdc-switch--disabled"
+  >
+    <div
+      className="mdc-switch__track"
+    />
+    <div
+      className="mdc-switch__thumb-underlay"
+    >
+      <div
+        className="mdc-switch__thumb"
+      >
+        <input
+          className="mdc-switch__native-control"
+          id="disabled-switch"
+          role="switch"
+          type="checkbox"
+        />
+      </div>
+    </div>
+  </div>
+  <label
+    htmlFor="disabled-switch"
+  >
+    Disabled
+  </label>
+</div>
+`;
+
+exports[`Storyshots Tab Basic 1`] = `
+<div
+  className="mdc-tab-bar"
+  role="tablist"
+>
+  <div
+    className="mdc-tab-scroller"
+  >
+    <div
+      className="mdc-tab-scroller__scroll-area"
+    >
+      <div
+        className="mdc-tab-scroller__scroll-content"
+      >
+        <button
+          className="mdc-tab mdc-tab--active"
+        >
+          <span
+            className="mdc-tab__content"
+          >
+            <span
+              className="mdc-tab__text-label"
+            >
+              Item One
+            </span>
+          </span>
+          <span
+            className="mdc-tab-indicator mdc-tab-indicator--active"
+          >
+            <span
+              className="mdc-tab-indicator__content mdc-tab-indicator__content--underline"
+            />
+          </span>
+          <span
+            className="mdc-tab__ripple"
+          />
+        </button>
+        <button
+          className="mdc-tab"
+        >
+          <span
+            className="mdc-tab__content"
+          >
+            <span
+              className="mdc-tab__text-label"
+            >
+              Item Two
+            </span>
+          </span>
+          <span
+            className="mdc-tab-indicator"
+          >
+            <span
+              className="mdc-tab-indicator__content mdc-tab-indicator__content--underline"
+            />
+          </span>
+          <span
+            className="mdc-tab__ripple"
+          />
+        </button>
+        <button
+          className="mdc-tab"
+        >
+          <span
+            className="mdc-tab__content"
+          >
+            <span
+              className="mdc-tab__text-label"
+            >
+              Item Three
+            </span>
+          </span>
+          <span
+            className="mdc-tab-indicator"
+          >
+            <span
+              className="mdc-tab-indicator__content mdc-tab-indicator__content--underline"
+            />
+          </span>
+          <span
+            className="mdc-tab__ripple"
+          />
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Tab IconIndicator 1`] = `
+<div
+  className="mdc-tab-bar"
+  role="tablist"
+>
+  <div
+    className="mdc-tab-scroller"
+  >
+    <div
+      className="mdc-tab-scroller__scroll-area"
+    >
+      <div
+        className="mdc-tab-scroller__scroll-content"
+      >
+        <button
+          className="mdc-tab mdc-tab--active"
+        >
+          <span
+            className="mdc-tab__content"
+          />
+          <span
+            className="mdc-tab-indicator mdc-tab-indicator--active mdc-tab-indicator--fade"
+          >
+            <span
+              aria-hidden={true}
+              className="mdc-tab-indicator__content material-icons mdc-tab-indicator__content--icon"
+            >
+              access_time
+            </span>
+          </span>
+          <span
+            className="mdc-tab__ripple"
+          />
+        </button>
+        <button
+          className="mdc-tab"
+        >
+          <span
+            className="mdc-tab__content"
+          />
+          <span
+            className="mdc-tab-indicator mdc-tab-indicator--fade"
+          >
+            <span
+              aria-hidden={true}
+              className="mdc-tab-indicator__content material-icons mdc-tab-indicator__content--icon"
+            >
+              near_me
+            </span>
+          </span>
+          <span
+            className="mdc-tab__ripple"
+          />
+        </button>
+        <button
+          className="mdc-tab"
+        >
+          <span
+            className="mdc-tab__content"
+          />
+          <span
+            className="mdc-tab-indicator mdc-tab-indicator--fade"
+          >
+            <span
+              aria-hidden={true}
+              className="mdc-tab-indicator__content material-icons mdc-tab-indicator__content--icon"
+            >
+              favorite
+            </span>
+          </span>
+          <span
+            className="mdc-tab__ripple"
+          />
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Tab IconLabel 1`] = `
+<div
+  className="mdc-tab-bar"
+  role="tablist"
+>
+  <div
+    className="mdc-tab-scroller"
+  >
+    <div
+      className="mdc-tab-scroller__scroll-area"
+    >
+      <div
+        className="mdc-tab-scroller__scroll-content"
+      >
+        <button
+          className="mdc-tab mdc-tab--active"
+        >
+          <span
+            className="mdc-tab__content"
+          >
+            <span
+              className="mdc-tab__icon material-icons"
+            >
+              access_time
+            </span>
+            <span
+              className="mdc-tab__text-label"
+            >
+              Recents
+            </span>
+          </span>
+          <span
+            className="mdc-tab-indicator mdc-tab-indicator--active"
+          >
+            <span
+              className="mdc-tab-indicator__content mdc-tab-indicator__content--underline"
+            />
+          </span>
+          <span
+            className="mdc-tab__ripple"
+          />
+        </button>
+        <button
+          className="mdc-tab"
+        >
+          <span
+            className="mdc-tab__content"
+          >
+            <span
+              className="mdc-tab__icon material-icons"
+            >
+              near_me
+            </span>
+            <span
+              className="mdc-tab__text-label"
+            >
+              Nearby
+            </span>
+          </span>
+          <span
+            className="mdc-tab-indicator"
+          >
+            <span
+              className="mdc-tab-indicator__content mdc-tab-indicator__content--underline"
+            />
+          </span>
+          <span
+            className="mdc-tab__ripple"
+          />
+        </button>
+        <button
+          className="mdc-tab"
+        >
+          <span
+            className="mdc-tab__content"
+          >
+            <span
+              className="mdc-tab__icon material-icons"
+            >
+              favorite
+            </span>
+            <span
+              className="mdc-tab__text-label"
+            >
+              Favorites
+            </span>
+          </span>
+          <span
+            className="mdc-tab-indicator"
+          >
+            <span
+              className="mdc-tab-indicator__content mdc-tab-indicator__content--underline"
+            />
+          </span>
+          <span
+            className="mdc-tab__ripple"
+          />
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Tab IconLabelMinWidth 1`] = `
+<div
+  className="mdc-tab-bar"
+  role="tablist"
+>
+  <div
+    className="mdc-tab-scroller"
+  >
+    <div
+      className="mdc-tab-scroller__scroll-area"
+    >
+      <div
+        className="mdc-tab-scroller__scroll-content"
+      >
+        <button
+          className="mdc-tab mdc-tab--active mdc-tab--stacked"
+        >
+          <span
+            className="mdc-tab__content"
+          >
+            <span
+              className="mdc-tab__icon material-icons"
+            >
+              access_time
+            </span>
+            <span
+              className="mdc-tab__text-label"
+            >
+              Recents
+            </span>
+            <span
+              className="mdc-tab-indicator mdc-tab-indicator--active"
+            >
+              <span
+                className="mdc-tab-indicator__content mdc-tab-indicator__content--underline"
+              />
+            </span>
+          </span>
+          <span
+            className="mdc-tab__ripple"
+          />
+        </button>
+        <button
+          className="mdc-tab mdc-tab--stacked"
+        >
+          <span
+            className="mdc-tab__content"
+          >
+            <span
+              className="mdc-tab__icon material-icons"
+            >
+              near_me
+            </span>
+            <span
+              className="mdc-tab__text-label"
+            >
+              Nearby
+            </span>
+            <span
+              className="mdc-tab-indicator"
+            >
+              <span
+                className="mdc-tab-indicator__content mdc-tab-indicator__content--underline"
+              />
+            </span>
+          </span>
+          <span
+            className="mdc-tab__ripple"
+          />
+        </button>
+        <button
+          className="mdc-tab mdc-tab--stacked"
+        >
+          <span
+            className="mdc-tab__content"
+          >
+            <span
+              className="mdc-tab__icon material-icons"
+            >
+              favorite
+            </span>
+            <span
+              className="mdc-tab__text-label"
+            >
+              Favorites
+            </span>
+            <span
+              className="mdc-tab-indicator"
+            >
+              <span
+                className="mdc-tab-indicator__content mdc-tab-indicator__content--underline"
+              />
+            </span>
+          </span>
+          <span
+            className="mdc-tab__ripple"
+          />
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Tab ScrollingTabs 1`] = `
+<div
+  className="mdc-tab-bar"
+  role="tablist"
+>
+  <div
+    className="mdc-tab-scroller"
+  >
+    <div
+      className="mdc-tab-scroller__scroll-area"
+    >
+      <div
+        className="mdc-tab-scroller__scroll-content"
+      >
+        <button
+          className="mdc-tab mdc-tab--active"
+        >
+          <span
+            className="mdc-tab__content"
+          >
+            <span
+              className="mdc-tab__text-label"
+            >
+              Tab 0
+            </span>
+          </span>
+          <span
+            className="mdc-tab-indicator mdc-tab-indicator--active"
+          >
+            <span
+              className="mdc-tab-indicator__content mdc-tab-indicator__content--underline"
+            />
+          </span>
+          <span
+            className="mdc-tab__ripple"
+          />
+        </button>
+        <button
+          className="mdc-tab"
+        >
+          <span
+            className="mdc-tab__content"
+          >
+            <span
+              className="mdc-tab__text-label"
+            >
+              Tab 
+              1
+            </span>
+          </span>
+          <span
+            className="mdc-tab-indicator"
+          >
+            <span
+              className="mdc-tab-indicator__content mdc-tab-indicator__content--underline"
+            />
+          </span>
+          <span
+            className="mdc-tab__ripple"
+          />
+        </button>
+        <button
+          className="mdc-tab"
+        >
+          <span
+            className="mdc-tab__content"
+          >
+            <span
+              className="mdc-tab__text-label"
+            >
+              Tab 
+              2
+            </span>
+          </span>
+          <span
+            className="mdc-tab-indicator"
+          >
+            <span
+              className="mdc-tab-indicator__content mdc-tab-indicator__content--underline"
+            />
+          </span>
+          <span
+            className="mdc-tab__ripple"
+          />
+        </button>
+        <button
+          className="mdc-tab"
+        >
+          <span
+            className="mdc-tab__content"
+          >
+            <span
+              className="mdc-tab__text-label"
+            >
+              Tab 
+              3
+            </span>
+          </span>
+          <span
+            className="mdc-tab-indicator"
+          >
+            <span
+              className="mdc-tab-indicator__content mdc-tab-indicator__content--underline"
+            />
+          </span>
+          <span
+            className="mdc-tab__ripple"
+          />
+        </button>
+        <button
+          className="mdc-tab"
+        >
+          <span
+            className="mdc-tab__content"
+          >
+            <span
+              className="mdc-tab__text-label"
+            >
+              Tab 
+              4
+            </span>
+          </span>
+          <span
+            className="mdc-tab-indicator"
+          >
+            <span
+              className="mdc-tab-indicator__content mdc-tab-indicator__content--underline"
+            />
+          </span>
+          <span
+            className="mdc-tab__ripple"
+          />
+        </button>
+        <button
+          className="mdc-tab"
+        >
+          <span
+            className="mdc-tab__content"
+          >
+            <span
+              className="mdc-tab__text-label"
+            >
+              Tab 
+              5
+            </span>
+          </span>
+          <span
+            className="mdc-tab-indicator"
+          >
+            <span
+              className="mdc-tab-indicator__content mdc-tab-indicator__content--underline"
+            />
+          </span>
+          <span
+            className="mdc-tab__ripple"
+          />
+        </button>
+        <button
+          className="mdc-tab"
+        >
+          <span
+            className="mdc-tab__content"
+          >
+            <span
+              className="mdc-tab__text-label"
+            >
+              Tab 
+              6
+            </span>
+          </span>
+          <span
+            className="mdc-tab-indicator"
+          >
+            <span
+              className="mdc-tab-indicator__content mdc-tab-indicator__content--underline"
+            />
+          </span>
+          <span
+            className="mdc-tab__ripple"
+          />
+        </button>
+        <button
+          className="mdc-tab"
+        >
+          <span
+            className="mdc-tab__content"
+          >
+            <span
+              className="mdc-tab__text-label"
+            >
+              Tab 
+              7
+            </span>
+          </span>
+          <span
+            className="mdc-tab-indicator"
+          >
+            <span
+              className="mdc-tab-indicator__content mdc-tab-indicator__content--underline"
+            />
+          </span>
+          <span
+            className="mdc-tab__ripple"
+          />
+        </button>
+        <button
+          className="mdc-tab"
+        >
+          <span
+            className="mdc-tab__content"
+          >
+            <span
+              className="mdc-tab__text-label"
+            >
+              Tab 
+              8
+            </span>
+          </span>
+          <span
+            className="mdc-tab-indicator"
+          >
+            <span
+              className="mdc-tab-indicator__content mdc-tab-indicator__content--underline"
+            />
+          </span>
+          <span
+            className="mdc-tab__ripple"
+          />
+        </button>
+        <button
+          className="mdc-tab"
+        >
+          <span
+            className="mdc-tab__content"
+          >
+            <span
+              className="mdc-tab__text-label"
+            >
+              Tab 
+              9
+            </span>
+          </span>
+          <span
+            className="mdc-tab-indicator"
+          >
+            <span
+              className="mdc-tab-indicator__content mdc-tab-indicator__content--underline"
+            />
+          </span>
+          <span
+            className="mdc-tab__ripple"
+          />
+        </button>
+        <button
+          className="mdc-tab"
+        >
+          <span
+            className="mdc-tab__content"
+          >
+            <span
+              className="mdc-tab__text-label"
+            >
+              Tab 
+              10
+            </span>
+          </span>
+          <span
+            className="mdc-tab-indicator"
+          >
+            <span
+              className="mdc-tab-indicator__content mdc-tab-indicator__content--underline"
+            />
+          </span>
+          <span
+            className="mdc-tab__ripple"
+          />
+        </button>
+        <button
+          className="mdc-tab"
+        >
+          <span
+            className="mdc-tab__content"
+          >
+            <span
+              className="mdc-tab__text-label"
+            >
+              Tab 
+              11
+            </span>
+          </span>
+          <span
+            className="mdc-tab-indicator"
+          >
+            <span
+              className="mdc-tab-indicator__content mdc-tab-indicator__content--underline"
+            />
+          </span>
+          <span
+            className="mdc-tab__ripple"
+          />
+        </button>
+        <button
+          className="mdc-tab"
+        >
+          <span
+            className="mdc-tab__content"
+          >
+            <span
+              className="mdc-tab__text-label"
+            >
+              Tab 
+              12
+            </span>
+          </span>
+          <span
+            className="mdc-tab-indicator"
+          >
+            <span
+              className="mdc-tab-indicator__content mdc-tab-indicator__content--underline"
+            />
+          </span>
+          <span
+            className="mdc-tab__ripple"
+          />
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots TextField Basic 1`] = `
+<div
+  className="mdc-text-field"
+>
+  <input
+    className="mdc-text-field__input"
+    onChange={[Function]}
+    value=""
+  />
+  <label
+    className="mdc-floating-label"
+  >
+    Email Address
+  </label>
+  <div
+    className="mdc-line-ripple"
+  />
+</div>
+`;
+
+exports[`Storyshots TextField FullWidth 1`] = `
+<div
+  className="mdc-text-field mdc-text-field--fullwidth"
+>
+  <input
+    aria-label="Address"
+    className="mdc-text-field__input"
+    onChange={[Function]}
+    placeholder="Address"
+    type="text"
+    value=""
+  />
+</div>
+`;
+
+exports[`Storyshots TextField FullWidthTextArea 1`] = `
+<div
+  className="mdc-text-field mdc-text-field--fullwidth mdc-text-field--outlined mdc-text-field--textarea"
+>
+  <textarea
+    className="mdc-text-field__input"
+    onChange={[Function]}
+    value=""
+  />
+  <div
+    className="mdc-notched-outline"
+  >
+    <div
+      className="mdc-notched-outline__leading"
+    />
+    <div
+      className="mdc-notched-outline__notch"
+    >
+      <label
+        className="mdc-floating-label"
+      >
+        Address
+      </label>
+    </div>
+    <div
+      className="mdc-notched-outline__trailing"
+    />
+  </div>
+</div>
+`;
+
+exports[`Storyshots TextField LeadingIcon 1`] = `
+<div
+  className="mdc-text-field mdc-text-field--outlined mdc-text-field--with-leading-icon"
+>
+  <i
+    className="material-icons mdc-text-field__icon"
+    role="button"
+    tabIndex={0}
+  >
+    event
+  </i>
+  <input
+    className="mdc-text-field__input"
+    onChange={[Function]}
+    value=""
+  />
+  <div
+    className="mdc-notched-outline"
+  >
+    <div
+      className="mdc-notched-outline__leading"
+    />
+    <div
+      className="mdc-notched-outline__notch"
+    >
+      <label
+        className="mdc-floating-label"
+      >
+        Date
+      </label>
+    </div>
+    <div
+      className="mdc-notched-outline__trailing"
+    />
+  </div>
+</div>
+`;
+
+exports[`Storyshots TextField Outlined 1`] = `
+Array [
+  <div
+    className="mdc-text-field mdc-text-field--outlined"
+  >
+    <input
+      className="mdc-text-field__input"
+      onChange={[Function]}
+      pattern=".{8,}"
+      required={true}
+      value=""
+    />
+    <div
+      className="mdc-notched-outline"
+    >
+      <div
+        className="mdc-notched-outline__leading"
+      />
+      <div
+        className="mdc-notched-outline__notch"
+      >
+        <label
+          className="mdc-floating-label"
+        >
+          Your Name
+        </label>
+      </div>
+      <div
+        className="mdc-notched-outline__trailing"
+      />
+    </div>
+  </div>,
+  <div
+    className="mdc-text-field-helper-text mdc-text-field-helper-text--persistent mdc-text-field-helper-text--validation-msg"
+  >
+    Must be at least 8 characters
+  </div>,
+]
+`;
+
+exports[`Storyshots TextField PasswordWithValidation 1`] = `
+Array [
+  <div
+    className="mdc-text-field"
+  >
+    <input
+      className="mdc-text-field__input"
+      onChange={[Function]}
+      pattern=".{8,}"
+      required={true}
+      type="password"
+      value=""
+    />
+    <label
+      className="mdc-floating-label"
+    >
+      Choose password
+    </label>
+    <div
+      className="mdc-line-ripple"
+    />
+  </div>,
+  <div
+    className="mdc-text-field-helper-text mdc-text-field-helper-text--persistent mdc-text-field-helper-text--validation-msg"
+  >
+    Must be at least 8 characters long
+  </div>,
+]
+`;
+
+exports[`Storyshots TextField TextArea 1`] = `
+<div
+  className="mdc-text-field mdc-text-field--outlined mdc-text-field--textarea"
+>
+  <textarea
+    className="mdc-text-field__input"
+    onChange={[Function]}
+    value=""
+  />
+  <div
+    className="mdc-notched-outline"
+  >
+    <div
+      className="mdc-notched-outline__leading"
+    />
+    <div
+      className="mdc-notched-outline__notch"
+    >
+      <label
+        className="mdc-floating-label"
+      >
+        Address
+      </label>
+    </div>
+    <div
+      className="mdc-notched-outline__trailing"
+    />
+  </div>
+</div>
+`;
+
+exports[`Storyshots TextField TrailingIcon 1`] = `
+<div
+  className="mdc-text-field mdc-text-field--with-trailing-icon"
+  onChange={[Function]}
+  value=""
+>
+  <input
+    className="mdc-text-field__input"
+    onChange={[Function]}
+    value=""
+  />
+  <label
+    className="mdc-floating-label"
+  >
+    Date
+  </label>
+  <i
+    className="material-icons mdc-text-field__icon"
+    role="button"
+    tabIndex={0}
+  >
+    delete
+  </i>
+  <div
+    className="mdc-line-ripple"
+  />
+</div>
+`;
+
+exports[`Storyshots TopAppBar Dense 1`] = `
+<div>
+  <header
+    className="mdc-top-app-bar mdc-top-app-bar--dense"
+  >
+    <div
+      className="mdc-top-app-bar__row"
+    >
+      <section
+        className="mdc-top-app-bar__section mdc-top-app-bar__section--align-start"
+      >
+        <i
+          className="material-icons mdc-top-app-bar__navigation-icon"
+        >
+          menu
+        </i>
+        <span
+          className="mdc-top-app-bar__title"
+        >
+          Title
+        </span>
+      </section>
+      <section
+        className="mdc-top-app-bar__section mdc-card__action-buttons mdc-top-app-bar__section--align-end"
+        role="toolbar"
+      >
+        <i
+          className="material-icons mdc-top-app-bar__action-item"
+        >
+          file_download
+        </i>
+        <i
+          className="material-icons mdc-top-app-bar__action-item"
+        >
+          print
+        </i>
+        <i
+          className="material-icons mdc-top-app-bar__action-item"
+        >
+          bookmark
+        </i>
+      </section>
+    </div>
+  </header>
+  <main
+    className="mdc-top-app-bar--dense-fixed-adjust"
+  >
+    <style>
+      body { margin: 0px }
+    </style>
+    <p>
+      Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est.
+    </p>
+    <p>
+      Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est.
+    </p>
+    <p>
+      Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est.
+    </p>
+    <p>
+      Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est.
+    </p>
+    <p>
+      Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est.
+    </p>
+    <p>
+      Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est.
+    </p>
+    <p>
+      Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est.
+    </p>
+    <p>
+      Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est.
+    </p>
+    <p>
+      Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est.
+    </p>
+    <p>
+      Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est.
+    </p>
+  </main>
+</div>
+`;
+
+exports[`Storyshots TopAppBar DenseProminent 1`] = `
+<div>
+  <header
+    className="mdc-top-app-bar mdc-top-app-bar--prominent mdc-top-app-bar--dense"
+  >
+    <div
+      className="mdc-top-app-bar__row"
+    >
+      <section
+        className="mdc-top-app-bar__section mdc-top-app-bar__section--align-start"
+      >
+        <i
+          className="material-icons mdc-top-app-bar__navigation-icon"
+        >
+          menu
+        </i>
+        <span
+          className="mdc-top-app-bar__title"
+        >
+          Title
+        </span>
+      </section>
+      <section
+        className="mdc-top-app-bar__section mdc-card__action-buttons mdc-top-app-bar__section--align-end"
+        role="toolbar"
+      >
+        <i
+          className="material-icons mdc-top-app-bar__action-item"
+        >
+          file_download
+        </i>
+        <i
+          className="material-icons mdc-top-app-bar__action-item"
+        >
+          print
+        </i>
+        <i
+          className="material-icons mdc-top-app-bar__action-item"
+        >
+          bookmark
+        </i>
+      </section>
+    </div>
+  </header>
+  <main
+    className="mdc-top-app-bar--dense-prominent-fixed-adjust"
+  >
+    <style>
+      body { margin: 0px }
+    </style>
+    <p>
+      Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est.
+    </p>
+    <p>
+      Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est.
+    </p>
+    <p>
+      Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est.
+    </p>
+    <p>
+      Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est.
+    </p>
+    <p>
+      Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est.
+    </p>
+    <p>
+      Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est.
+    </p>
+    <p>
+      Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est.
+    </p>
+    <p>
+      Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est.
+    </p>
+    <p>
+      Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est.
+    </p>
+    <p>
+      Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est.
+    </p>
+  </main>
+</div>
+`;
+
+exports[`Storyshots TopAppBar Fixed 1`] = `
+<div>
+  <header
+    className="mdc-top-app-bar mdc-top-app-bar--fixed"
+  >
+    <div
+      className="mdc-top-app-bar__row"
+    >
+      <section
+        className="mdc-top-app-bar__section mdc-top-app-bar__section--align-start"
+      >
+        <i
+          className="material-icons mdc-top-app-bar__navigation-icon"
+        >
+          menu
+        </i>
+        <span
+          className="mdc-top-app-bar__title"
+        >
+          Title
+        </span>
+      </section>
+      <section
+        className="mdc-top-app-bar__section mdc-card__action-buttons mdc-top-app-bar__section--align-end"
+        role="toolbar"
+      >
+        <i
+          className="material-icons mdc-top-app-bar__action-item"
+        >
+          file_download
+        </i>
+        <i
+          className="material-icons mdc-top-app-bar__action-item"
+        >
+          print
+        </i>
+        <i
+          className="material-icons mdc-top-app-bar__action-item"
+        >
+          bookmark
+        </i>
+      </section>
+    </div>
+  </header>
+  <main
+    className="mdc-top-app-bar--fixed-adjust"
+  >
+    <style>
+      body { margin: 0px }
+    </style>
+    <p>
+      Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est.
+    </p>
+    <p>
+      Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est.
+    </p>
+    <p>
+      Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est.
+    </p>
+    <p>
+      Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est.
+    </p>
+    <p>
+      Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est.
+    </p>
+    <p>
+      Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est.
+    </p>
+    <p>
+      Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est.
+    </p>
+    <p>
+      Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est.
+    </p>
+    <p>
+      Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est.
+    </p>
+    <p>
+      Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est.
+    </p>
+  </main>
+</div>
+`;
+
+exports[`Storyshots TopAppBar Normal 1`] = `
+<div>
+  <header
+    className="mdc-top-app-bar"
+  >
+    <div
+      className="mdc-top-app-bar__row"
+    >
+      <section
+        className="mdc-top-app-bar__section mdc-top-app-bar__section--align-start"
+      >
+        <i
+          className="material-icons mdc-top-app-bar__navigation-icon"
+        >
+          menu
+        </i>
+        <span
+          className="mdc-top-app-bar__title"
+        >
+          Title
+        </span>
+      </section>
+      <section
+        className="mdc-top-app-bar__section mdc-card__action-buttons mdc-top-app-bar__section--align-end"
+        role="toolbar"
+      >
+        <i
+          className="material-icons mdc-top-app-bar__action-item"
+        >
+          file_download
+        </i>
+        <i
+          className="material-icons mdc-top-app-bar__action-item"
+        >
+          print
+        </i>
+        <i
+          className="material-icons mdc-top-app-bar__action-item"
+        >
+          bookmark
+        </i>
+      </section>
+    </div>
+  </header>
+  <main
+    className="mdc-top-app-bar--fixed-adjust"
+  >
+    <style>
+      body { margin: 0px }
+    </style>
+    <p>
+      Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est.
+    </p>
+    <p>
+      Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est.
+    </p>
+    <p>
+      Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est.
+    </p>
+    <p>
+      Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est.
+    </p>
+    <p>
+      Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est.
+    </p>
+    <p>
+      Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est.
+    </p>
+    <p>
+      Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est.
+    </p>
+    <p>
+      Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est.
+    </p>
+    <p>
+      Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est.
+    </p>
+    <p>
+      Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est.
+    </p>
+  </main>
+</div>
+`;
+
+exports[`Storyshots TopAppBar Prominent 1`] = `
+<div>
+  <header
+    className="mdc-top-app-bar mdc-top-app-bar--prominent"
+  >
+    <div
+      className="mdc-top-app-bar__row"
+    >
+      <section
+        className="mdc-top-app-bar__section mdc-top-app-bar__section--align-start"
+      >
+        <i
+          className="material-icons mdc-top-app-bar__navigation-icon"
+        >
+          menu
+        </i>
+        <span
+          className="mdc-top-app-bar__title"
+        >
+          Title
+        </span>
+      </section>
+      <section
+        className="mdc-top-app-bar__section mdc-card__action-buttons mdc-top-app-bar__section--align-end"
+        role="toolbar"
+      >
+        <i
+          className="material-icons mdc-top-app-bar__action-item"
+        >
+          file_download
+        </i>
+        <i
+          className="material-icons mdc-top-app-bar__action-item"
+        >
+          print
+        </i>
+        <i
+          className="material-icons mdc-top-app-bar__action-item"
+        >
+          bookmark
+        </i>
+      </section>
+    </div>
+  </header>
+  <main
+    className="mdc-top-app-bar--prominent-fixed-adjust"
+  >
+    <style>
+      body { margin: 0px }
+    </style>
+    <p>
+      Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est.
+    </p>
+    <p>
+      Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est.
+    </p>
+    <p>
+      Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est.
+    </p>
+    <p>
+      Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est.
+    </p>
+    <p>
+      Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est.
+    </p>
+    <p>
+      Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est.
+    </p>
+    <p>
+      Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est.
+    </p>
+    <p>
+      Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est.
+    </p>
+    <p>
+      Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est.
+    </p>
+    <p>
+      Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est.
+    </p>
+  </main>
+</div>
+`;
+
+exports[`Storyshots TopAppBar Short 1`] = `
+<div>
+  <header
+    className="mdc-top-app-bar mdc-top-app-bar--short"
+  >
+    <div
+      className="mdc-top-app-bar__row"
+    >
+      <section
+        className="mdc-top-app-bar__section mdc-top-app-bar__section--align-start"
+      >
+        <i
+          className="material-icons mdc-top-app-bar__navigation-icon"
+        >
+          menu
+        </i>
+        <span
+          className="mdc-top-app-bar__title"
+        >
+          Title
+        </span>
+      </section>
+      <section
+        className="mdc-top-app-bar__section mdc-card__action-buttons mdc-top-app-bar__section--align-end"
+        role="toolbar"
+      >
+        <i
+          className="material-icons mdc-top-app-bar__action-item"
+        >
+          file_download
+        </i>
+      </section>
+    </div>
+  </header>
+  <main
+    className="mdc-top-app-bar--short-fixed-adjust"
+  >
+    <style>
+      body { margin: 0px }
+    </style>
+    <p>
+      Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est.
+    </p>
+    <p>
+      Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est.
+    </p>
+    <p>
+      Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est.
+    </p>
+    <p>
+      Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est.
+    </p>
+    <p>
+      Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est.
+    </p>
+    <p>
+      Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est.
+    </p>
+    <p>
+      Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est.
+    </p>
+    <p>
+      Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est.
+    </p>
+    <p>
+      Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est.
+    </p>
+    <p>
+      Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est.
+    </p>
+  </main>
+</div>
+`;
+
+exports[`Storyshots TopAppBar ShortCollapsed 1`] = `
+<div>
+  <header
+    className="mdc-top-app-bar mdc-top-app-bar--short mdc-top-app-bar--short-collapsed"
+  >
+    <div
+      className="mdc-top-app-bar__row"
+    >
+      <section
+        className="mdc-top-app-bar__section mdc-top-app-bar__section--align-start"
+      >
+        <i
+          className="material-icons mdc-top-app-bar__navigation-icon"
+        >
+          menu
+        </i>
+        <span
+          className="mdc-top-app-bar__title"
+        >
+          Title
+        </span>
+      </section>
+      <section
+        className="mdc-top-app-bar__section mdc-card__action-buttons mdc-top-app-bar__section--align-end"
+        role="toolbar"
+      >
+        <i
+          className="material-icons mdc-top-app-bar__action-item"
+        >
+          file_download
+        </i>
+      </section>
+    </div>
+  </header>
+  <main
+    className="mdc-top-app-bar--short-fixed-adjust"
+  >
+    <style>
+      body { margin: 0px }
+    </style>
+    <p>
+      Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est.
+    </p>
+    <p>
+      Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est.
+    </p>
+    <p>
+      Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est.
+    </p>
+    <p>
+      Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est.
+    </p>
+    <p>
+      Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est.
+    </p>
+    <p>
+      Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est.
+    </p>
+    <p>
+      Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est.
+    </p>
+    <p>
+      Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est.
+    </p>
+    <p>
+      Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est.
+    </p>
+    <p>
+      Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est.
+    </p>
+  </main>
+</div>
+`;

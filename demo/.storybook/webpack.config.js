@@ -9,6 +9,15 @@ module.exports = (baseConfig, env, config) => {
     },
   })
   config.resolve.extensions.push('.ts', '.tsx')
+  config.module.rules.push({
+    test: /\.(js|jsx)$/,
+    include: [path.resolve(__dirname, '../src/components')],
+    loader: require.resolve('@storybook/addon-storysource/loader'),
+    options: {
+      injectDecorator: false,
+    },
+    enforce: 'pre',
+  })
 
   config.resolve.alias = {
     ...config.resolve.alias,
