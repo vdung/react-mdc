@@ -24,7 +24,7 @@ const cssProps: CssProps<TopAppBarProps> = {
 
 class TopAppBar extends withControl<TopAppBarProps>(MDCTopAppBar, {
   events: {
-    'MDCTopAppBar:nav': 'onNav',
+    onNav: 'MDCTopAppBar:nav',
   },
 }) {
   render() {

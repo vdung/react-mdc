@@ -29,7 +29,7 @@ const cssProps: CssProps<IconButtonProps> = ['on']
 
 class IconButton extends withControl<IconButtonProps>(MDCIconButtonToggle, {
   events: {
-    'MDCIconButtonToggle:change': 'onChange',
+    onChange: 'MDCIconButtonToggle:change',
   },
   controlProps: ['on'],
 }) {

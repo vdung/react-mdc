@@ -17,8 +17,8 @@ const cssProps: CssProps<DrawerProps> = ['modal', 'dismissible']
 
 class Drawer extends withControl<DrawerProps>(MDCDrawer, {
   events: {
-    'MDCDrawer:opened': 'onOpen',
-    'MDCDrawer:closed': 'onClose',
+    onOpen: 'MDCDrawer:opened',
+    onClose: 'MDCDrawer:closed',
   },
   controlProps: ['open'],
 }) {

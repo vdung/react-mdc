@@ -1,6 +1,6 @@
 import * as React from 'react'
 import { getClassName, cleanProps } from './helpers'
-import { CssProps } from './types'
+import { CssProps, PropOf } from './types'
 
 export interface MaterialProps<P> {
   tag: React.ReactType<P>
@@ -8,7 +8,7 @@ export interface MaterialProps<P> {
 
 export interface MaterializeOptions<P> {
   cssProps?: CssProps<P>
-  keepCssProps?: (keyof P)[]
+  keepCssProps?: PropOf<P>[]
   displayName?: string
 }
 
@@ -34,7 +34,7 @@ export function materialize<P>(
       const baseClassName = componentName
       const className = getClassName<P>(baseClassName, props, cssProps)
 
-      const componentProps = cleanProps(props, cssProps, keepCssProps)
+      const componentProps = cleanProps<P>(props, cssProps, keepCssProps)
 
       return React.createElement(Component, {
         ...componentProps,

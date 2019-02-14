@@ -19,8 +19,8 @@ export interface MenuSurfaceProps extends SurfaceProps {
 
 class MenuSurface extends withControl<MenuSurfaceProps>(MDCMenuSurface, {
   events: {
-    'MDCMenuSurface:opened': 'onOpen',
-    'MDCMenuSurface:closed': 'onClose',
+    onOpen: 'MDCMenuSurface:opened',
+    onClose: 'MDCMenuSurface:closed',
   },
   controlProps: [
     'open',

@@ -1,7 +1,9 @@
 import classnames from 'classnames'
-import { PropMap, PropList, CssProps } from './types'
+import { StringMap, CssProps, PropOf } from './types'
 
-const mapValue = <Value, R extends PropMap<Value>>(
+export const propsOf = <T>(o: T) => Object.keys(o) as PropOf<T>[]
+
+export const mapValue = <Value, R extends any>(
   mapper: (key: keyof R, result: R) => Value
 ) => (result: R, key: string): R => {
   result[key] = mapper(key, result)
@@ -9,17 +11,17 @@ const mapValue = <Value, R extends PropMap<Value>>(
 }
 
 export function buildClassList(
-  props: PropMap<any>,
-  propList: PropList<any>
-): PropMap<any> {
+  props: StringMap<any>,
+  propList: string[] | StringMap<any>
+): StringMap<any> {
   if (Array.isArray(propList)) {
     return buildClassList(
       props,
-      propList.reduce<PropMap<any>>(mapValue(prop => prop), {})
+      propList.reduce<StringMap<any>>(mapValue(prop => prop), {})
     )
   }
 
-  return Object.entries(propList).reduce<PropMap<any>>(
+  return Object.entries(propList).reduce<StringMap<any>>(
     (result, [prop, className]) => {
       if (className instanceof Function) {
         const value = className(props)
@@ -39,21 +41,21 @@ export function buildClassList(
   )
 }
 
-export function cleanProps<P extends PropMap<any>>(
+export function cleanProps<P>(
   props: P,
-  cssProps: PropList<any>,
-  keepCssProps: (keyof P)[]
-): { [K in keyof P]?: any } {
+  cssProps: CssProps<P>,
+  keepCssProps: PropOf<P>[]
+): Partial<P> {
   if (!Array.isArray(cssProps)) {
-    return cleanProps(props, Object.keys(cssProps), keepCssProps)
+    return cleanProps(props, propsOf(cssProps), keepCssProps)
   }
 
-  return Object.keys(props)
+  return propsOf(props)
     .filter(name => keepCssProps.includes(name) || !cssProps.includes(name))
-    .reduce(mapValue(name => props[name]), {})
+    .reduce<Partial<P>>(mapValue(name => props[name]), {})
 }
 
-export function getClassName<P extends PropMap<any>>(
+export function getClassName<P extends StringMap<any>>(
   baseClassName: string,
   props: P,
   cssProps: CssProps<P> = []

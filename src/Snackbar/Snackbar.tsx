@@ -25,8 +25,8 @@ const cssProps: CssProps<SnackbarProps> = ['leading', 'stacked', 'open']
 
 class Snackbar extends withControl<SnackbarProps>(MDCSnackbar, {
   events: {
-    'MDCSnackbar:open': 'onOpen',
-    'MDCSnackbar:closed': 'onClose',
+    onOpen: 'MDCSnackbar:open',
+    onClose: 'MDCSnackbar:closed',
   },
   controlProps: ['closeOnEscape', 'timeoutMs'],
 }) {

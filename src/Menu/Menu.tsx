@@ -21,7 +21,7 @@ export interface MenuProps extends SurfaceProps {
 
 class Menu extends withControl<MenuProps>(MDCMenu, {
   events: {
-    'MDCMenu:selected': 'onSelect',
+    onSelect: 'MDCMenu:selected',
   },
   controlProps: [
     'open',

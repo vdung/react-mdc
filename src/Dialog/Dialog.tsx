@@ -14,8 +14,8 @@ export interface DialogProps extends React.HTMLProps<HTMLDivElement> {
 
 class Dialog extends withControl<DialogProps>(MDCDialog, {
   events: {
-    'MDCDialog:opened': 'onOpen',
-    'MDCDialog:closed': 'onClose',
+    onOpen: 'MDCDialog:opened',
+    onClose: 'MDCDialog:closed',
   },
 }) {
   open() {

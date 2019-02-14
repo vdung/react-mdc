@@ -29,7 +29,7 @@ export interface SelectProps {
 
 class Select extends withControl<SelectProps>(MDCSelect, {
   events: {
-    'MDCSelect:change': 'onChange',
+    onChange: 'MDCSelect:change',
   },
   controlProps: ['disabled', 'selectedIndex', 'value', 'valid', 'required'],
 }) {

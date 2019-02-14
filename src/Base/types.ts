@@ -1,7 +1,8 @@
+export type PropOf<P> = Extract<keyof P, string>
+
 export type CssPropFunction<P> = (props: P) => string | boolean | undefined
 export type CssProps<P> =
-  | (keyof P)[]
-  | { [K in keyof P]?: string | (CssPropFunction<P>) }
+  | PropOf<P>[]
+  | { [K in PropOf<P>]?: string | (CssPropFunction<P>) }
 
-export type PropMap<T> = { [key: string]: T }
-export type PropList<T> = string[] | PropMap<T>
+export type StringMap<T> = { [key: string]: T }

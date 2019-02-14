@@ -1,20 +1,24 @@
 import * as React from 'react'
-import { cleanProps } from './helpers'
+import { cleanProps, propsOf } from './helpers'
+import { PropOf } from './types'
 
-function propToSetter(name: string): string {
-  return 'set' + name[0].toUpperCase() + name.substr(1)
+type EventMap<P> = { [K in PropOf<P>]?: string }
+
+function propToSetter(prop: string): string {
+  return `set${prop[0].toUpperCase()}${prop.substr(1)}`
 }
 
 export type EventHandler<E = CustomEvent> = (event: E) => void
+export interface ControlOptions<P> {
+  events?: EventMap<P>
+  controlProps?: PropOf<P>[]
+}
 
 export function withControl<P, S = {}, SS = any>(
   MDCClass: any,
-  options: {
-    events?: { [name: string]: keyof P }
-    controlProps?: (keyof P)[]
-  } = {}
+  options: ControlOptions<P> = {}
 ) {
-  const { events = {}, controlProps = [] } = options
+  const { events = {} as EventMap<P>, controlProps = [] } = options
 
   return class WithControl extends React.Component<P, S, SS> {
     public MDComponent?: any
@@ -22,16 +26,16 @@ export function withControl<P, S = {}, SS = any>(
     /* private */ eventHandlers: { [name: string]: Function } = {}
 
     /* protected */ attachHandlers() {
-      for (const name in events) {
-        const prop = events[name]
-        this.eventHandlers[name] = (event: CustomEvent) => {
-          const propValue = this.props[prop]
-          if (propValue instanceof Function) {
-            propValue(event)
+      for (const prop of propsOf(events)) {
+        const name = events[prop]
+        this.eventHandlers[prop] = (event: CustomEvent) => {
+          const handler = this.props[prop]
+          if (handler instanceof Function) {
+            handler(event)
           }
         }
 
-        this.MDComponent.listen(name, this.eventHandlers[name])
+        this.MDComponent.listen(name, this.eventHandlers[prop])
       }
 
       for (const prop of controlProps) {
@@ -47,16 +51,14 @@ export function withControl<P, S = {}, SS = any>(
       }
     }
 
-    /* protected */ cleanProps(
-      keepProps?: (keyof P)[]
-    ): { [K in keyof P]?: P[K] } {
+    /* protected */ cleanProps(keepProps?: PropOf<P>[]): Partial<P> {
       if (!Array.isArray(keepProps)) {
         keepProps = []
       }
 
       return cleanProps(
         this.props,
-        controlProps.concat(Object.values(events)),
+        controlProps.concat(propsOf(events)),
         keepProps
       )
     }
