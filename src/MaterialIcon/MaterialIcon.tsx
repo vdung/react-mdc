@@ -6,11 +6,13 @@ export interface MaterialIconProps {
   children?: string
 }
 
-const MaterialIcon: React.FunctionComponent<MaterialIconProps> = ({
-  icon,
-  children,
-  ...props
-}) => <i {...props}>{icon || children}</i>
+const MaterialIcon = React.forwardRef<HTMLElement, MaterialIconProps>(
+  ({ icon, children, ...props }, ref) => (
+    <i {...props} ref={ref}>
+      {icon || children}
+    </i>
+  )
+)
 
 export default materialize<MaterialIconProps>('material-icons', {
   displayName: 'MaterialIcon',
