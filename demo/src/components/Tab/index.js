@@ -7,15 +7,15 @@ import {
   TabIcon,
   TabScroller,
   TabTextLabel,
-  Icon,
   TabIndicator,
   TabIndicatorContent,
+  MaterialIcon,
 } from '@vdung/react-mdc'
 
 const MyIcon = ({ children, ...props }) => (
-  <TabIcon {...props}>
-    <Icon>{children}</Icon>
-  </TabIcon>
+  <MaterialIcon tag={TabIcon} {...props}>
+    {children}
+  </MaterialIcon>
 )
 MyIcon.propTypes = {
   children: PropTypes.node,
@@ -92,9 +92,9 @@ export const ScrollingTabs = () => (
 
 const MyIndicator = ({ children, ...props }) => (
   <TabIndicator fade {...props}>
-    <Icon tag={TabIndicatorContent} icon aria-hidden={true}>
+    <MaterialIcon tag={TabIndicatorContent} icon aria-hidden={true}>
       {children}
-    </Icon>
+    </MaterialIcon>
   </TabIndicator>
 )
 MyIndicator.propTypes = {

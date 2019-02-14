@@ -59,7 +59,7 @@ class TextField extends withControl<TextFieldProps>(MDCTextField) {
     if (typeof icon === 'string') {
       return (
         <Icon role="button" tabIndex={0}>
-          <MaterialIcon>{icon}</MaterialIcon>
+          <MaterialIcon icon={icon} />
         </Icon>
       )
     }

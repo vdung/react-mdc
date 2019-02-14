@@ -5,7 +5,7 @@ import {
   ListItem,
   ListItemGraphic,
   ListItemMeta,
-  Icon,
+  MaterialIcon,
 } from '@vdung/react-mdc'
 
 export const TextOnly = () => (
@@ -50,19 +50,19 @@ export const IconWithText = () => (
   <List>
     <ListItem>
       <ListItemGraphic>
-        <Icon>network_wifi</Icon>
+        <MaterialIcon>network_wifi</MaterialIcon>
       </ListItemGraphic>
       Wi-Fi
     </ListItem>
     <ListItem>
       <ListItemGraphic>
-        <Icon>bluetooth</Icon>
+        <MaterialIcon>bluetooth</MaterialIcon>
       </ListItemGraphic>
       Bluetooth
     </ListItem>
     <ListItem>
       <ListItemGraphic>
-        <Icon>data_usage</Icon>
+        <MaterialIcon>data_usage</MaterialIcon>
       </ListItemGraphic>
       Data Usage
     </ListItem>

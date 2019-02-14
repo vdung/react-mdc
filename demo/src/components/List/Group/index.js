@@ -11,7 +11,7 @@ import {
   ListItemPrimaryText,
   ListItemSecondaryText,
   ListItemText,
-  Icon,
+  MaterialIcon,
 } from '@vdung/react-mdc'
 
 export const Basic = () => (
@@ -38,38 +38,38 @@ export const TwoLineAvatarMetadataInset = () => (
     <List twoLine avatarList>
       <ListItem>
         <ListItemGraphic className="list-item__demo-graphic">
-          <Icon>folder</Icon>
+          <MaterialIcon>folder</MaterialIcon>
         </ListItemGraphic>
         <ListItemText>
           <ListItemPrimaryText>Photo</ListItemPrimaryText>
           <ListItemSecondaryText>Jan 9, 2014</ListItemSecondaryText>
         </ListItemText>
         <ListItemMeta>
-          <Icon>info</Icon>
+          <MaterialIcon>info</MaterialIcon>
         </ListItemMeta>
       </ListItem>
       <ListItem>
         <ListItemGraphic className="list-item__demo-graphic">
-          <Icon>folder</Icon>
+          <MaterialIcon>folder</MaterialIcon>
         </ListItemGraphic>
         <ListItemText>
           <ListItemPrimaryText>Recipes</ListItemPrimaryText>
           <ListItemSecondaryText>Jan 17, 2014</ListItemSecondaryText>
         </ListItemText>
         <ListItemMeta>
-          <Icon>info</Icon>
+          <MaterialIcon>info</MaterialIcon>
         </ListItemMeta>
       </ListItem>
       <ListItem>
         <ListItemGraphic className="list-item__demo-graphic">
-          <Icon>folder</Icon>
+          <MaterialIcon>folder</MaterialIcon>
         </ListItemGraphic>
         <ListItemText>
           <ListItemPrimaryText>Work</ListItemPrimaryText>
           <ListItemSecondaryText>Jan 28, 2014</ListItemSecondaryText>
         </ListItemText>
         <ListItemMeta>
-          <Icon>info</Icon>
+          <MaterialIcon>info</MaterialIcon>
         </ListItemMeta>
       </ListItem>
     </List>
@@ -78,26 +78,26 @@ export const TwoLineAvatarMetadataInset = () => (
     <List twoLine avatarList>
       <ListItem>
         <ListItemGraphic className="list-item__demo-graphic">
-          <Icon>insert_drive_file</Icon>
+          <MaterialIcon>insert_drive_file</MaterialIcon>
         </ListItemGraphic>
         <ListItemText>
           <ListItemPrimaryText>Vacation Itinerary</ListItemPrimaryText>
           <ListItemSecondaryText>Jan 10, 2014</ListItemSecondaryText>
         </ListItemText>
         <ListItemMeta>
-          <Icon>info</Icon>
+          <MaterialIcon>info</MaterialIcon>
         </ListItemMeta>
       </ListItem>
       <ListItem>
         <ListItemGraphic className="list-item__demo-graphic">
-          <Icon>insert_drive_file</Icon>
+          <MaterialIcon>insert_drive_file</MaterialIcon>
         </ListItemGraphic>
         <ListItemText>
           <ListItemPrimaryText>Kitchen Remodel</ListItemPrimaryText>
           <ListItemSecondaryText>Jan 20, 2014</ListItemSecondaryText>
         </ListItemText>
         <ListItemMeta>
-          <Icon>info</Icon>
+          <MaterialIcon>info</MaterialIcon>
         </ListItemMeta>
       </ListItem>
     </List>

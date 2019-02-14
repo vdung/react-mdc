@@ -8,7 +8,7 @@ import {
   ListItemPrimaryText,
   ListItemSecondaryText,
   ListItemText,
-  Icon,
+  MaterialIcon,
 } from '@vdung/react-mdc'
 
 export const TextOnly = () => (
@@ -155,38 +155,38 @@ export const AvatarMetadataTextIcon = () => (
   <List twoLine avatarList>
     <ListItem>
       <ListItemGraphic className="list-item__demo-graphic">
-        <Icon>folder</Icon>
+        <MaterialIcon>folder</MaterialIcon>
       </ListItemGraphic>
       <ListItemText>
         <ListItemPrimaryText>Photo</ListItemPrimaryText>
         <ListItemSecondaryText>Jan 9, 2014</ListItemSecondaryText>
       </ListItemText>
       <ListItemMeta>
-        <Icon>info</Icon>
+        <MaterialIcon>info</MaterialIcon>
       </ListItemMeta>
     </ListItem>
     <ListItem>
       <ListItemGraphic className="list-item__demo-graphic">
-        <Icon>folder</Icon>
+        <MaterialIcon>folder</MaterialIcon>
       </ListItemGraphic>
       <ListItemText>
         <ListItemPrimaryText>Recipes</ListItemPrimaryText>
         <ListItemSecondaryText>Jan 17, 2014</ListItemSecondaryText>
       </ListItemText>
       <ListItemMeta>
-        <Icon>info</Icon>
+        <MaterialIcon>info</MaterialIcon>
       </ListItemMeta>
     </ListItem>
     <ListItem>
       <ListItemGraphic className="list-item__demo-graphic">
-        <Icon>folder</Icon>
+        <MaterialIcon>folder</MaterialIcon>
       </ListItemGraphic>
       <ListItemText>
         <ListItemPrimaryText>Work</ListItemPrimaryText>
         <ListItemSecondaryText>Jan 28, 2014</ListItemSecondaryText>
       </ListItemText>
       <ListItemMeta>
-        <Icon>info</Icon>
+        <MaterialIcon>info</MaterialIcon>
       </ListItemMeta>
     </ListItem>
   </List>

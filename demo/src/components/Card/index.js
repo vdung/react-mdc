@@ -9,7 +9,7 @@ import {
   CardMediaContent,
   Typography,
   Button,
-  Icon,
+  MaterialIcon,
   Ripple,
   ListGroupDivider,
 } from '@vdung/react-mdc'
@@ -52,7 +52,7 @@ export const FullFeatured = () => (
       </CardActionButtons>
       <CardActionIcons>
         <Ripple>
-          <Icon>more_vert</Icon>
+          <MaterialIcon>more_vert</MaterialIcon>
         </Ripple>
       </CardActionIcons>
     </CardActions>
@@ -77,9 +77,9 @@ export const Photo = () => (
     </CardPrimaryAction>
     <CardActions>
       <CardActionIcons>
-        <Icon>favorite_border</Icon>
-        <Icon>bookmark_border</Icon>
-        <Icon>share</Icon>
+        <MaterialIcon>favorite_border</MaterialIcon>
+        <MaterialIcon>bookmark_border</MaterialIcon>
+        <MaterialIcon>share</MaterialIcon>
       </CardActionIcons>
     </CardActions>
   </Card>
@@ -116,7 +116,7 @@ export const Music = () => (
       </CardActionButtons>
       <CardActionIcons>
         {Array.from({ length: 5 }, (_, i) => (
-          <Icon key={i}>star_border</Icon>
+          <MaterialIcon key={i}>star_border</MaterialIcon>
         ))}
       </CardActionIcons>
     </CardActions>

@@ -10,7 +10,6 @@ import {
   DrawerAppContent,
   DrawerItem,
   MaterialIcon,
-  Ripple,
   List,
 } from '@vdung/react-mdc'
 
@@ -57,7 +56,7 @@ export const Modal = () => (
       <div className="drawer__layout">
         <TopAppBar fixed onNav={onToggle}>
           <TopAppBarNavigation
-            icon={<MaterialIcon>menu</MaterialIcon>}
+            icon={<MaterialIcon icon="menu" />}
             title="React-Mdc Demo"
           />
         </TopAppBar>
@@ -89,7 +88,7 @@ export const Dimissible = () => (
         <DrawerAppContent className="drawer__content">
           <TopAppBar onNav={onToggle}>
             <TopAppBarNavigation
-              icon={<MaterialIcon>menu</MaterialIcon>}
+              icon={<MaterialIcon icon="menu" />}
               title="React-Mdc Demo"
             />
           </TopAppBar>
