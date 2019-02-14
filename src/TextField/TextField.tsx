@@ -1,7 +1,7 @@
 import * as React from 'react'
 // @ts-ignore no .d.ts file
 import { MDCTextField } from '@material/textfield'
-import Icon from './Icon'
+import MaterialIcon from '../MaterialIcon/MaterialIcon'
 import LineRipple from '../LineRipple/LineRipple'
 import NotchedOutline from '../NotchedOutline/NotchedOutline'
 import {
@@ -12,6 +12,11 @@ import {
 } from '../Base'
 
 const FloatingLabel = materialize('mdc-floating-label')('label')
+const Icon = materialize<React.HTMLProps<any>>('mdc-text-field__icon')(
+  ClassNameForwardingComponent
+)
+type IconType = string | React.ReactElement<any>
+const Input = materialize('mdc-text-field__input')(ClassNameForwardingComponent)
 
 export interface TextFieldProps extends React.HTMLAttributes<HTMLDivElement> {
   textarea?: boolean | React.ReactHTMLElement<HTMLTextAreaElement>
@@ -20,8 +25,8 @@ export interface TextFieldProps extends React.HTMLAttributes<HTMLDivElement> {
   disabled?: boolean
   dense?: boolean
   label?: string
-  leadingIcon?: React.ReactNode
-  trailingIcon?: React.ReactNode
+  leadingIcon?: IconType
+  trailingIcon?: IconType
   helperText?: React.ReactNode
   input?: React.ReactHTMLElement<HTMLInputElement>
 }
@@ -49,10 +54,16 @@ const cssProps: CssProps<TextFieldProps> = {
   },
 }
 
-const Input = materialize('mdc-text-field__input')(ClassNameForwardingComponent)
-
 class TextField extends withControl<TextFieldProps>(MDCTextField) {
-  renderIcon(icon: React.ReactNode) {
+  renderIcon(icon: IconType) {
+    if (typeof icon === 'string') {
+      return (
+        <Icon role="button" tabIndex={0}>
+          <MaterialIcon>{icon}</MaterialIcon>
+        </Icon>
+      )
+    }
+
     return (
       <Icon role="button" tabIndex={0}>
         {icon}

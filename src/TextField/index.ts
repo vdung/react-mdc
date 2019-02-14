@@ -1,5 +1,4 @@
 import TextField from './TextField'
-import TextFieldIcon from './Icon'
 import TextFieldHelperText from './HelperText'
 
-export { TextField, TextFieldIcon, TextFieldHelperText }
+export { TextField, TextFieldHelperText }
