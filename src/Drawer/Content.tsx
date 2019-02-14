@@ -3,4 +3,4 @@ import { materialize } from '../Base'
 
 export default materialize('mdc-drawer__content', {
   displayName: 'DrawerContent',
-})('nav')
+})('div')

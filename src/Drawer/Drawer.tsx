@@ -3,6 +3,8 @@ import * as React from 'react'
 import { MDCDrawer } from '@material/drawer'
 import { materialize, withControl, EventHandler, CssProps } from '../Base'
 
+const Scrim = materialize('mdc-drawer-scrim')('div')
+
 export interface DrawerProps extends React.HTMLProps<HTMLElement> {
   modal?: boolean
   dismissible?: boolean
@@ -22,7 +24,16 @@ class Drawer extends withControl<DrawerProps>(MDCDrawer, {
 }) {
   render() {
     const { onOpen, onClose, open, modal, dismissible, ...props } = this.props
-    if (modal || dismissible) {
+    if (modal) {
+      return (
+        <React.Fragment>
+          <aside {...props} ref={this.control} />
+          <Scrim />
+        </React.Fragment>
+      )
+    }
+
+    if (dismissible) {
       return <aside {...props} ref={this.control} />
     }
 

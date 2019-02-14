@@ -5,7 +5,6 @@ import DrawerHeader from './Header'
 import DrawerTitle from './Title'
 import DrawerSubtitle from './Subtitle'
 import DrawerAppContent from './AppContent'
-import DrawerScrim from './Scrim'
 
 export {
   Drawer,
@@ -15,5 +14,4 @@ export {
   DrawerSubtitle,
   DrawerItem,
   DrawerAppContent,
-  DrawerScrim,
 }

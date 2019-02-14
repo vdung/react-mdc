@@ -8,9 +8,8 @@ import {
   DrawerHeader,
   DrawerContent,
   DrawerAppContent,
-  DrawerScrim,
   DrawerItem,
-  Icon,
+  MaterialIcon,
   Ripple,
   List,
 } from '@vdung/react-mdc'
@@ -60,7 +59,7 @@ export const Modal = () => (
           <TopAppBarNavigation
             icon={
               <Ripple>
-                <Icon onClick={onToggle}>menu</Icon>
+                <MaterialIcon onClick={onToggle}>menu</MaterialIcon>
               </Ripple>
             }
             title="React-Mdc Demo"
@@ -74,7 +73,6 @@ export const Modal = () => (
             </List>
           </DrawerContent>
         </Drawer>
-        <DrawerScrim />
       </div>
     )}
   />
@@ -97,7 +95,7 @@ export const Dimissible = () => (
             <TopAppBarNavigation
               icon={
                 <Ripple>
-                  <Icon onClick={onToggle}>menu</Icon>
+                  <MaterialIcon onClick={onToggle}>menu</MaterialIcon>
                 </Ripple>
               }
               title="React-Mdc Demo"
