@@ -1,7 +1,7 @@
 import * as React from 'react'
-import Icon from '../Icon/Icon'
+import MaterialIcon from '../MaterialIcon/MaterialIcon'
 import { materialize, withDefaultTag } from '../Base'
 
 export default materialize('mdc-text-field__icon', {
-  displayName: 'Icon',
-})(withDefaultTag(Icon))
+  displayName: 'TextFieldIcon',
+})(withDefaultTag(MaterialIcon))

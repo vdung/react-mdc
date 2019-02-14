@@ -13,5 +13,5 @@ export interface HelperTextProps {
 
 export default materialize<HelperTextProps>('mdc-text-field-helper-text', {
   cssProps,
-  displayName: 'HelperText',
+  displayName: 'TextFieldHelperText',
 })('div')
