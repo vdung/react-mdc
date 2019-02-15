@@ -22,7 +22,7 @@ const cssProps = {
 }
 
 const Container = withDefaultTag('ul')
-class List extends withControl<ListProps>(MDCList, {
+export class List extends withControl<ListProps>(MDCList, {
   controlProps: ['singleSelection', 'wrapFocus', 'verticalOrientation'],
 }) {
   render() {

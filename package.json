@@ -8,7 +8,7 @@
     "README.md"
   ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "npm --prefix demo run test --",
     "build": "npm run build:types && npm run build:js",
     "build:types": "tsc --emitDeclarationOnly",
     "build:js": "babel src --out-dir dist --extensions \".ts,.tsx\" --source-maps inline",
@@ -56,6 +56,7 @@
   },
   "lint-staged": {
     "*.{ts,tsx,css,md}": [
+      "npm run test -- --bail --findRelatedTests",
       "prettier --write",
       "git add"
     ]

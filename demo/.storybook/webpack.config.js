@@ -21,7 +21,8 @@ module.exports = (baseConfig, env, config) => {
 
   config.resolve.alias = {
     ...config.resolve.alias,
-    '@vdung/react-mdc': path.resolve('../'),
+    '@vdung/react-mdc/dist': path.resolve('../src'),
+    '@vdung/react-mdc': path.resolve('../src'),
   }
 
   return config

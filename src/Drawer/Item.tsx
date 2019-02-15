@@ -1,9 +1,9 @@
 import * as React from 'react'
 import ListItem from '../List/Item'
 
-const Item: React.FunctionComponent<
-  React.ComponentPropsWithoutRef<typeof ListItem>
-> = props => <ListItem {...props} tag="a" />
+const Item = React.forwardRef<typeof ListItem>((props, ref) => (
+  <ListItem {...props} tag="a" ref={ref} />
+))
 
 Item.displayName = 'DrawerItem'
 
