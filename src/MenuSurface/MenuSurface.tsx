@@ -33,11 +33,11 @@ class MenuSurface extends withControl<MenuSurfaceProps>(MDCMenuSurface, {
     'fixedPosition',
   ],
 }) {
-  componentWillReceiveProps(nextProps: MenuSurfaceProps) {
-    if (nextProps.isHoisted && !this.props.isHoisted) {
+  componentDidUpdate(prevProps: MenuSurfaceProps) {
+    if (this.props.isHoisted && !prevProps.isHoisted) {
       this.MDComponent.hoistMenuToBody()
     }
-    super.componentWillReceiveProps(nextProps)
+    super.componentDidUpdate(prevProps)
   }
 
   render() {

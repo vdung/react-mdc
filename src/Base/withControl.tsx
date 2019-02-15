@@ -18,7 +18,8 @@ export function withControl<P, S = {}, SS = any>(
   MDCClass: any,
   options: ControlOptions<P> = {}
 ) {
-  const { events = {} as EventMap<P>, controlProps = [] } = options
+  const { controlProps = [] } = options
+  const events: EventMap<P> = options.events || {}
 
   return class WithControl extends React.Component<P, S, SS> {
     public MDComponent?: any
@@ -101,14 +102,14 @@ export function withControl<P, S = {}, SS = any>(
       }
     }
 
-    componentWillReceiveProps(nextProps: P) {
+    componentDidUpdate(prevProps: P) {
       if (this.MDComponent) {
         for (const prop of controlProps) {
           if (
-            nextProps[prop] !== undefined &&
-            this.props[prop] !== nextProps[prop]
+            this.props[prop] !== undefined &&
+            this.props[prop] !== prevProps[prop]
           ) {
-            this.setControlProp(prop, nextProps[prop])
+            this.setControlProp(prop, this.props[prop])
           }
         }
       }
