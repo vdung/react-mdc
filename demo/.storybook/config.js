@@ -7,12 +7,10 @@ import '../index.css'
 const req = requireContext('../src/components', true, /\.js$/)
 
 function loadStories() {
-  req.keys().forEach(filename => {
-    const { __STORY__, __ADDS_MAP__, withStorySource, ...stories } = req(
-      filename
-    )
+  req.keys().forEach(mod => {
+    const { __STORY__, __ADDS_MAP__, withStorySource, ...stories } = req(mod)
 
-    const storybook = storiesOf(path.normalize(path.dirname(filename)), module)
+    const storybook = storiesOf(path.dirname(mod).substr(2), module)
     if (withStorySource) {
       storybook.addDecorator(withStorySource(__STORY__, __ADDS_MAP__))
     }

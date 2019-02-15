@@ -1329,7 +1329,7 @@ exports[`Storyshots LinearProgress Reversed 1`] = `
 </div>
 `;
 
-exports[`Storyshots List\\Divider FullWidth 1`] = `
+exports[`Storyshots List/Divider FullWidth 1`] = `
 <ul
   className="mdc-list"
 >
@@ -1365,7 +1365,7 @@ exports[`Storyshots List\\Divider FullWidth 1`] = `
 </ul>
 `;
 
-exports[`Storyshots List\\Divider Insets 1`] = `
+exports[`Storyshots List/Divider Insets 1`] = `
 <ul
   className="mdc-list mdc-list--avatar-list"
 >
@@ -1416,7 +1416,7 @@ exports[`Storyshots List\\Divider Insets 1`] = `
 </ul>
 `;
 
-exports[`Storyshots List\\Group Basic 1`] = `
+exports[`Storyshots List/Group Basic 1`] = `
 <div
   className="mdc-list-group"
 >
@@ -1475,7 +1475,7 @@ exports[`Storyshots List\\Group Basic 1`] = `
 </div>
 `;
 
-exports[`Storyshots List\\Group TwoLineAvatarMetadataInset 1`] = `
+exports[`Storyshots List/Group TwoLineAvatarMetadataInset 1`] = `
 <div
   className="mdc-list-group"
 >
@@ -1684,7 +1684,7 @@ exports[`Storyshots List\\Group TwoLineAvatarMetadataInset 1`] = `
 </div>
 `;
 
-exports[`Storyshots List\\SingleLine Avatar 1`] = `
+exports[`Storyshots List/SingleLine Avatar 1`] = `
 <ul
   className="mdc-list mdc-list--avatar-list"
 >
@@ -1715,7 +1715,7 @@ exports[`Storyshots List\\SingleLine Avatar 1`] = `
 </ul>
 `;
 
-exports[`Storyshots List\\SingleLine AvatarDense 1`] = `
+exports[`Storyshots List/SingleLine AvatarDense 1`] = `
 <ul
   className="mdc-list mdc-list--dense mdc-list--avatar-list"
 >
@@ -1746,7 +1746,7 @@ exports[`Storyshots List\\SingleLine AvatarDense 1`] = `
 </ul>
 `;
 
-exports[`Storyshots List\\SingleLine AvatarMetadata 1`] = `
+exports[`Storyshots List/SingleLine AvatarMetadata 1`] = `
 <ul
   className="mdc-list mdc-list--avatar-list"
 >
@@ -1792,7 +1792,7 @@ exports[`Storyshots List\\SingleLine AvatarMetadata 1`] = `
 </ul>
 `;
 
-exports[`Storyshots List\\SingleLine AvatarMetadataDense 1`] = `
+exports[`Storyshots List/SingleLine AvatarMetadataDense 1`] = `
 <ul
   className="mdc-list mdc-list--dense mdc-list--avatar-list"
 >
@@ -1838,7 +1838,7 @@ exports[`Storyshots List\\SingleLine AvatarMetadataDense 1`] = `
 </ul>
 `;
 
-exports[`Storyshots List\\SingleLine Graphic 1`] = `
+exports[`Storyshots List/SingleLine Graphic 1`] = `
 <ul
   className="mdc-list"
 >
@@ -1869,7 +1869,7 @@ exports[`Storyshots List\\SingleLine Graphic 1`] = `
 </ul>
 `;
 
-exports[`Storyshots List\\SingleLine GraphicDense 1`] = `
+exports[`Storyshots List/SingleLine GraphicDense 1`] = `
 <ul
   className="mdc-list mdc-list--dense"
 >
@@ -1900,7 +1900,7 @@ exports[`Storyshots List\\SingleLine GraphicDense 1`] = `
 </ul>
 `;
 
-exports[`Storyshots List\\SingleLine IconWithText 1`] = `
+exports[`Storyshots List/SingleLine IconWithText 1`] = `
 <ul
   className="mdc-list"
 >
@@ -1949,7 +1949,7 @@ exports[`Storyshots List\\SingleLine IconWithText 1`] = `
 </ul>
 `;
 
-exports[`Storyshots List\\SingleLine Metadata 1`] = `
+exports[`Storyshots List/SingleLine Metadata 1`] = `
 <ul
   className="mdc-list"
 >
@@ -1986,7 +1986,7 @@ exports[`Storyshots List\\SingleLine Metadata 1`] = `
 </ul>
 `;
 
-exports[`Storyshots List\\SingleLine MetadataDense 1`] = `
+exports[`Storyshots List/SingleLine MetadataDense 1`] = `
 <ul
   className="mdc-list mdc-list--dense"
 >
@@ -2023,7 +2023,7 @@ exports[`Storyshots List\\SingleLine MetadataDense 1`] = `
 </ul>
 `;
 
-exports[`Storyshots List\\SingleLine TextOnly 1`] = `
+exports[`Storyshots List/SingleLine TextOnly 1`] = `
 <ul
   className="mdc-list"
 >
@@ -2045,7 +2045,7 @@ exports[`Storyshots List\\SingleLine TextOnly 1`] = `
 </ul>
 `;
 
-exports[`Storyshots List\\SingleLine TextOnlyDense 1`] = `
+exports[`Storyshots List/SingleLine TextOnlyDense 1`] = `
 <ul
   className="mdc-list mdc-list--dense"
 >
@@ -2067,7 +2067,7 @@ exports[`Storyshots List\\SingleLine TextOnlyDense 1`] = `
 </ul>
 `;
 
-exports[`Storyshots List\\TwoLine Avatar 1`] = `
+exports[`Storyshots List/TwoLine Avatar 1`] = `
 <ul
   className="mdc-list mdc-list--two-line mdc-list--avatar-list"
 >
@@ -2137,7 +2137,7 @@ exports[`Storyshots List\\TwoLine Avatar 1`] = `
 </ul>
 `;
 
-exports[`Storyshots List\\TwoLine AvatarDense 1`] = `
+exports[`Storyshots List/TwoLine AvatarDense 1`] = `
 <ul
   className="mdc-list mdc-list--dense mdc-list--two-line mdc-list--avatar-list"
 >
@@ -2207,7 +2207,7 @@ exports[`Storyshots List\\TwoLine AvatarDense 1`] = `
 </ul>
 `;
 
-exports[`Storyshots List\\TwoLine AvatarMetadata 1`] = `
+exports[`Storyshots List/TwoLine AvatarMetadata 1`] = `
 <ul
   className="mdc-list mdc-list--two-line mdc-list--avatar-list"
 >
@@ -2292,7 +2292,7 @@ exports[`Storyshots List\\TwoLine AvatarMetadata 1`] = `
 </ul>
 `;
 
-exports[`Storyshots List\\TwoLine AvatarMetadataDense 1`] = `
+exports[`Storyshots List/TwoLine AvatarMetadataDense 1`] = `
 <ul
   className="mdc-list mdc-list--dense mdc-list--two-line mdc-list--avatar-list"
 >
@@ -2377,7 +2377,7 @@ exports[`Storyshots List\\TwoLine AvatarMetadataDense 1`] = `
 </ul>
 `;
 
-exports[`Storyshots List\\TwoLine AvatarMetadataTextIcon 1`] = `
+exports[`Storyshots List/TwoLine AvatarMetadataTextIcon 1`] = `
 <ul
   className="mdc-list mdc-list--two-line mdc-list--avatar-list"
 >
@@ -2492,7 +2492,7 @@ exports[`Storyshots List\\TwoLine AvatarMetadataTextIcon 1`] = `
 </ul>
 `;
 
-exports[`Storyshots List\\TwoLine Graphic 1`] = `
+exports[`Storyshots List/TwoLine Graphic 1`] = `
 <ul
   className="mdc-list mdc-list--two-line"
 >
@@ -2562,7 +2562,7 @@ exports[`Storyshots List\\TwoLine Graphic 1`] = `
 </ul>
 `;
 
-exports[`Storyshots List\\TwoLine GraphicDense 1`] = `
+exports[`Storyshots List/TwoLine GraphicDense 1`] = `
 <ul
   className="mdc-list mdc-list--dense mdc-list--two-line"
 >
@@ -2632,7 +2632,7 @@ exports[`Storyshots List\\TwoLine GraphicDense 1`] = `
 </ul>
 `;
 
-exports[`Storyshots List\\TwoLine Metadata 1`] = `
+exports[`Storyshots List/TwoLine Metadata 1`] = `
 <ul
   className="mdc-list mdc-list--two-line"
 >
@@ -2708,7 +2708,7 @@ exports[`Storyshots List\\TwoLine Metadata 1`] = `
 </ul>
 `;
 
-exports[`Storyshots List\\TwoLine MetadataDense 1`] = `
+exports[`Storyshots List/TwoLine MetadataDense 1`] = `
 <ul
   className="mdc-list mdc-list--dense mdc-list--two-line"
 >
@@ -2784,7 +2784,7 @@ exports[`Storyshots List\\TwoLine MetadataDense 1`] = `
 </ul>
 `;
 
-exports[`Storyshots List\\TwoLine TextOnly 1`] = `
+exports[`Storyshots List/TwoLine TextOnly 1`] = `
 <ul
   className="mdc-list mdc-list--two-line"
 >
@@ -2845,7 +2845,7 @@ exports[`Storyshots List\\TwoLine TextOnly 1`] = `
 </ul>
 `;
 
-exports[`Storyshots List\\TwoLine TextOnlyDense 1`] = `
+exports[`Storyshots List/TwoLine TextOnlyDense 1`] = `
 <ul
   className="mdc-list mdc-list--dense mdc-list--two-line"
 >
