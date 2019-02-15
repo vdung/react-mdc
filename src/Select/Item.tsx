@@ -6,10 +6,11 @@ export interface SelectItemProps
   value: string | number
 }
 
-const Item: React.FunctionComponent<SelectItemProps> = ({
-  value,
-  ...props
-}) => <ListItem {...props} role="option" data-value={value} />
+const Item = React.forwardRef<typeof ListItem, SelectItemProps>(
+  ({ value, ...props }, ref) => (
+    <ListItem {...props} ref={ref} role="option" data-value={value} />
+  )
+)
 Item.displayName = 'SelectItem'
 
 export default Item
